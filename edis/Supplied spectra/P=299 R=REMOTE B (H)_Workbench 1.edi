@@ -1,0 +1,1876 @@
+>HEAD
+    DATAID="P=299 R=REMOTE B (H)"
+    ACQBY="Zonge Engineering"
+    FILEBY=""
+    ACQDATE=09/29/20
+    ENDDATE=09/30/20
+    FILEDATE=10/06/20
+    COUNTRY="AU"
+    LOC="Near Mount Isa, AU (E. Australia Standard Time)"
+    LAT=-20:12:43.4
+    LONG=140:38:8.6
+    ELEV=169.701
+    UNITS=M
+    STDVERS="SEG 1.0"
+    PROGVERS="EMpower v1.48.1.2"
+    PROGDATE="03/31/20"
+    EMPTY=1.0E32
+
+>INFO  MAXINFO=32492
+{
+    "HzType": 1,
+    "calibration": {
+        "Hx_scal": "53890_5F0FDF8D.scal",
+        "Hy_scal": "54089_5F0FDF8D.scal",
+        "Hz_scal": "54112_5F0FDF8D.scal",
+        "Rx_scal": "53688_5F0FBDB6.scal",
+        "Ry_scal": "53812_5F0FBDB6.scal",
+        "mag_rxcal": "10263_5F0FDA2D.rxcal",
+        "pri_rxcal": "10263_5F0FDA2D.rxcal",
+        "ref_rxcal": "10290_5F0FAFEB.rxcal"
+    },
+    "comb_filter": 50,
+    "hasRemote": true,
+    "layout": {
+        "Ex": "E1",
+        "Ey": "E2",
+        "Hx": "H1",
+        "Hy": "H2",
+        "Hz": "H3",
+        "Rx": "H1",
+        "Ry": "H2",
+        "e_azimuth": 0,
+        "h_azimuth": 0,
+        "r_azimuth": 0
+    },
+    "magnetic": {
+        "acqtime": 158715,
+        "bat_ext": 12.124,
+        "calibration": {
+            "type": "none"
+        },
+        "channel_map": {
+            "mapping": [
+                {
+                    "idx": 0,
+                    "tag": "H2"
+                },
+                {
+                    "idx": 1,
+                    "tag": "E1"
+                },
+                {
+                    "idx": 2,
+                    "tag": "H1"
+                },
+                {
+                    "idx": 3,
+                    "tag": "H3"
+                },
+                {
+                    "idx": 4,
+                    "tag": "E2"
+                }
+            ],
+            "receiver_model": "RMT03-D",
+            "version": 1
+        },
+        "chconfig": {
+            "chans": [
+                {
+                    "at": 0,
+                    "cn": "08030000",
+                    "dc": 32518,
+                    "fileSeq": 2646,
+                    "frameDrop": 0,
+                    "frameSat": 3,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": 8388607,
+                    "min": -8388608,
+                    "mt": "MTC-150",
+                    "on": 1,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0315CA",
+                    "serial": 54089,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H2",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": "MTC-150"
+                },
+                {
+                    "at": 0,
+                    "cn": "18280000",
+                    "dc": 32693,
+                    "fileSeq": 2646,
+                    "frameDrop": 0,
+                    "frameSat": 144,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "length1": 50,
+                    "length2": 50,
+                    "lp": 10000,
+                    "max": 8388607,
+                    "min": -8388608,
+                    "on": 1,
+                    "pg": 4,
+                    "polInv": false,
+                    "pot_n": 1198.407826,
+                    "pot_p": 856.869044,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0315CE",
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "E1",
+                    "ty": "E"
+                },
+                {
+                    "at": 0,
+                    "cn": "08030000",
+                    "dc": 32740,
+                    "fileSeq": 2646,
+                    "frameDrop": 0,
+                    "frameSat": 0,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": 7691883,
+                    "min": -6711049,
+                    "mt": "MTC-150",
+                    "on": 1,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0315D8",
+                    "serial": 53890,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H1",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": "MTC-150"
+                },
+                {
+                    "at": 0,
+                    "cn": "08030000",
+                    "dc": 32389,
+                    "fileSeq": 2646,
+                    "frameDrop": 0,
+                    "frameSat": 2268,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": 8388607,
+                    "min": -291706,
+                    "mt": "MTC-150",
+                    "on": 1,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0315E4",
+                    "serial": 54112,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H3",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": "MTC-150"
+                },
+                {
+                    "at": 0,
+                    "cn": "18280000",
+                    "dc": 32679,
+                    "fileSeq": 2646,
+                    "frameDrop": 0,
+                    "frameSat": 42,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "length1": 50,
+                    "length2": 50,
+                    "lp": 10000,
+                    "max": 8388607,
+                    "min": -8388608,
+                    "on": 1,
+                    "pg": 4,
+                    "polInv": false,
+                    "pot_n": 1009.174989,
+                    "pot_p": 1018.441914,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0315D9",
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "E2",
+                    "ty": "E"
+                }
+            ],
+            "config_index": 0,
+            "name": "chconfig",
+            "version": 5
+        },
+        "decimation": {
+            "divider_id": 1,
+            "interleave_lev0": 1,
+            "interleave_lev1": 0,
+            "version_1": {
+                "interleave_150": 1,
+                "interleave_2400": 0,
+                "interleave_24k": 1,
+                "interleave_30": 0,
+                "interleave_96k": 0,
+                "period": 60
+            }
+        },
+        "df": 61801234432,
+        "dt": 63831015424,
+        "empower_version": "v1.48.1.3",
+        "gps_max": 14,
+        "gps_min": 8,
+        "instid": "10263",
+        "layout": {
+            "Company_Name": "Zonge Engineering",
+            "Declination": 5.5,
+            "E_Azimuth": 0,
+            "H1_Azimuth": 0,
+            "H1_Serial": 53890,
+            "H1_Type": 4,
+            "H1_Type_Name": "MTC-150",
+            "H2_Serial": 54089,
+            "H2_Type": 4,
+            "H2_Type_Name": "MTC-150",
+            "H3_Serial": 54112,
+            "H3_Type": 4,
+            "H3_Type_Name": "MTC-150",
+            "Layout_Type": 0,
+            "Measured_Pot_Resist_E1_Neg": 1198.407826,
+            "Measured_Pot_Resist_E1_Pos": 856.869044,
+            "Measured_Pot_Resist_E2_Neg": 1009.174989,
+            "Measured_Pot_Resist_E2_Pos": 1018.441914,
+            "Notes": "",
+            "Operator": "NP, PS",
+            "Pot_Dist_E1_Neg": 50,
+            "Pot_Dist_E1_Pos": 50,
+            "Pot_Dist_E2_Neg": 50,
+            "Pot_Dist_E2_Pos": 50,
+            "Station_Name": "299",
+            "Survey_Name": "190254",
+            "closest_city": "Mount Isa",
+            "country": "AU",
+            "elecFilterType": 0,
+            "elev": 169.701312,
+            "isEMpowerFormat": true,
+            "lat": -20.212063,
+            "lon": 140.635727,
+            "status": "unapproved",
+            "timezone": "Australia/Brisbane",
+            "version": 5
+        },
+        "missingFrame": 0,
+        "motherboard": {
+            "mb_fw_ver": "00010035X",
+            "mb_hw_ver": "BMB01-G ",
+            "mb_serial": "03157E",
+            "version": 1
+        },
+        "name": "recording",
+        "ppsDrift": false,
+        "receiver_commercial_name": "MTU-5C",
+        "receiver_model": "RMT03-D",
+        "sampleClock": 768000,
+        "start": 1601346320,
+        "status": "dataacq",
+        "stop": 1601505035,
+        "sw_version": "v1.48.1.2",
+        "systime": 1601505035,
+        "temp_cel": 38,
+        "temperature_max": 55,
+        "temperature_min": 35,
+        "timing": {
+            "gps_alt": 169.701312,
+            "gps_lat": -20.212063,
+            "gps_lon": 140.635727,
+            "name": "timing",
+            "tm_alive": 1,
+            "tm_cpld": "2912",
+            "tm_debug": 0,
+            "tm_drift": "0",
+            "tm_drift_units": "20thMhz",
+            "tm_fw_ver": "FF01002DX",
+            "tm_hw_ver": "BTM01-I ",
+            "tm_leapSecAtRecStart": 18,
+            "tm_leapSecNow": 18,
+            "tm_ready": 1,
+            "tm_satcount": 10,
+            "tm_satmin": 7,
+            "tm_serial": "0319A8",
+            "tm_stabidx": 65535,
+            "tm_timeset": 1,
+            "tm_timeweek": 1,
+            "tm_utcset": 1,
+            "version": 3
+        },
+        "uptime": 158938,
+        "version": 10
+    },
+    "notes": "",
+    "primary": {
+        "acqtime": 158715,
+        "bat_ext": 12.124,
+        "calibration": {
+            "type": "none"
+        },
+        "channel_map": {
+            "mapping": [
+                {
+                    "idx": 0,
+                    "tag": "H2"
+                },
+                {
+                    "idx": 1,
+                    "tag": "E1"
+                },
+                {
+                    "idx": 2,
+                    "tag": "H1"
+                },
+                {
+                    "idx": 3,
+                    "tag": "H3"
+                },
+                {
+                    "idx": 4,
+                    "tag": "E2"
+                }
+            ],
+            "receiver_model": "RMT03-D",
+            "version": 1
+        },
+        "chconfig": {
+            "chans": [
+                {
+                    "at": 0,
+                    "cn": "08030000",
+                    "dc": 32518,
+                    "fileSeq": 2646,
+                    "frameDrop": 0,
+                    "frameSat": 3,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": 8388607,
+                    "min": -8388608,
+                    "mt": "MTC-150",
+                    "on": 1,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0315CA",
+                    "serial": 54089,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H2",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": "MTC-150"
+                },
+                {
+                    "at": 0,
+                    "cn": "18280000",
+                    "dc": 32693,
+                    "fileSeq": 2646,
+                    "frameDrop": 0,
+                    "frameSat": 144,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "length1": 50,
+                    "length2": 50,
+                    "lp": 10000,
+                    "max": 8388607,
+                    "min": -8388608,
+                    "on": 1,
+                    "pg": 4,
+                    "polInv": false,
+                    "pot_n": 1198.407826,
+                    "pot_p": 856.869044,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0315CE",
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "E1",
+                    "ty": "E"
+                },
+                {
+                    "at": 0,
+                    "cn": "08030000",
+                    "dc": 32740,
+                    "fileSeq": 2646,
+                    "frameDrop": 0,
+                    "frameSat": 0,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": 7691883,
+                    "min": -6711049,
+                    "mt": "MTC-150",
+                    "on": 1,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0315D8",
+                    "serial": 53890,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H1",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": "MTC-150"
+                },
+                {
+                    "at": 0,
+                    "cn": "08030000",
+                    "dc": 32389,
+                    "fileSeq": 2646,
+                    "frameDrop": 0,
+                    "frameSat": 2268,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": 8388607,
+                    "min": -291706,
+                    "mt": "MTC-150",
+                    "on": 1,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0315E4",
+                    "serial": 54112,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H3",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": "MTC-150"
+                },
+                {
+                    "at": 0,
+                    "cn": "18280000",
+                    "dc": 32679,
+                    "fileSeq": 2646,
+                    "frameDrop": 0,
+                    "frameSat": 42,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "length1": 50,
+                    "length2": 50,
+                    "lp": 10000,
+                    "max": 8388607,
+                    "min": -8388608,
+                    "on": 1,
+                    "pg": 4,
+                    "polInv": false,
+                    "pot_n": 1009.174989,
+                    "pot_p": 1018.441914,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0315D9",
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "E2",
+                    "ty": "E"
+                }
+            ],
+            "config_index": 0,
+            "name": "chconfig",
+            "version": 5
+        },
+        "decimation": {
+            "divider_id": 1,
+            "interleave_lev0": 1,
+            "interleave_lev1": 0,
+            "version_1": {
+                "interleave_150": 1,
+                "interleave_2400": 0,
+                "interleave_24k": 1,
+                "interleave_30": 0,
+                "interleave_96k": 0,
+                "period": 60
+            }
+        },
+        "df": 61801234432,
+        "dt": 63831015424,
+        "empower_version": "v1.48.1.3",
+        "gps_max": 14,
+        "gps_min": 8,
+        "instid": "10263",
+        "layout": {
+            "Company_Name": "Zonge Engineering",
+            "Declination": 5.5,
+            "E_Azimuth": 0,
+            "H1_Azimuth": 0,
+            "H1_Serial": 53890,
+            "H1_Type": 4,
+            "H1_Type_Name": "MTC-150",
+            "H2_Serial": 54089,
+            "H2_Type": 4,
+            "H2_Type_Name": "MTC-150",
+            "H3_Serial": 54112,
+            "H3_Type": 4,
+            "H3_Type_Name": "MTC-150",
+            "Layout_Type": 0,
+            "Measured_Pot_Resist_E1_Neg": 1198.407826,
+            "Measured_Pot_Resist_E1_Pos": 856.869044,
+            "Measured_Pot_Resist_E2_Neg": 1009.174989,
+            "Measured_Pot_Resist_E2_Pos": 1018.441914,
+            "Notes": "",
+            "Operator": "NP, PS",
+            "Pot_Dist_E1_Neg": 50,
+            "Pot_Dist_E1_Pos": 50,
+            "Pot_Dist_E2_Neg": 50,
+            "Pot_Dist_E2_Pos": 50,
+            "Station_Name": "299",
+            "Survey_Name": "190254",
+            "closest_city": "Mount Isa",
+            "country": "AU",
+            "elecFilterType": 0,
+            "elev": 169.701312,
+            "isEMpowerFormat": true,
+            "lat": -20.212063,
+            "lon": 140.635727,
+            "status": "unapproved",
+            "timezone": "Australia/Brisbane",
+            "version": 5
+        },
+        "missingFrame": 0,
+        "motherboard": {
+            "mb_fw_ver": "00010035X",
+            "mb_hw_ver": "BMB01-G ",
+            "mb_serial": "03157E",
+            "version": 1
+        },
+        "name": "recording",
+        "ppsDrift": false,
+        "receiver_commercial_name": "MTU-5C",
+        "receiver_model": "RMT03-D",
+        "sampleClock": 768000,
+        "start": 1601346320,
+        "status": "dataacq",
+        "stop": 1601505035,
+        "sw_version": "v1.48.1.2",
+        "systime": 1601505035,
+        "temp_cel": 38,
+        "temperature_max": 55,
+        "temperature_min": 35,
+        "timing": {
+            "gps_alt": 169.701312,
+            "gps_lat": -20.212063,
+            "gps_lon": 140.635727,
+            "name": "timing",
+            "tm_alive": 1,
+            "tm_cpld": "2912",
+            "tm_debug": 0,
+            "tm_drift": "0",
+            "tm_drift_units": "20thMhz",
+            "tm_fw_ver": "FF01002DX",
+            "tm_hw_ver": "BTM01-I ",
+            "tm_leapSecAtRecStart": 18,
+            "tm_leapSecNow": 18,
+            "tm_ready": 1,
+            "tm_satcount": 10,
+            "tm_satmin": 7,
+            "tm_serial": "0319A8",
+            "tm_stabidx": 65535,
+            "tm_timeset": 1,
+            "tm_timeweek": 1,
+            "tm_utcset": 1,
+            "version": 3
+        },
+        "uptime": 158938,
+        "version": 10
+    },
+    "processDateTime": 1601532889,
+    "processEmpowerVersion": "v1.48.1.3",
+    "process_type": 0,
+    "processed_site_name": "P=299 R=REMOTE B (H)",
+    "reference": {
+        "acqtime": 81820,
+        "bat_ext": 12.301,
+        "calibration": {
+            "type": "none"
+        },
+        "channel_map": {
+            "mapping": [
+                {
+                    "idx": 0,
+                    "tag": "E1"
+                },
+                {
+                    "idx": 1,
+                    "tag": "H3"
+                },
+                {
+                    "idx": 2,
+                    "tag": "H2"
+                },
+                {
+                    "idx": 3,
+                    "tag": "H1"
+                },
+                {
+                    "idx": 4,
+                    "tag": "H4"
+                },
+                {
+                    "idx": 5,
+                    "tag": "H5"
+                },
+                {
+                    "idx": 6,
+                    "tag": "H6"
+                },
+                {
+                    "idx": 7,
+                    "tag": "E2"
+                }
+            ],
+            "receiver_model": "RMT05",
+            "version": 1
+        },
+        "chconfig": {
+            "chans": [
+                {
+                    "at": 0,
+                    "cn": "18280000",
+                    "dc": 32691,
+                    "fileSeq": 1364,
+                    "frameDrop": 0,
+                    "frameSat": 0,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "length1": 50,
+                    "length2": 50,
+                    "lp": 10000,
+                    "max": 3378759,
+                    "min": -2024955,
+                    "on": 1,
+                    "pg": 4,
+                    "polInv": false,
+                    "pot_n": 176505.78992,
+                    "pot_p": 176571.366871,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "031436",
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "E1",
+                    "ty": "E"
+                },
+                {
+                    "at": 0,
+                    "cn": "08030000",
+                    "dc": 32764,
+                    "fileSeq": 1364,
+                    "frameDrop": 0,
+                    "frameSat": 0,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": 4377,
+                    "min": -274,
+                    "mt": "Not Present",
+                    "on": 1,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "031645",
+                    "serial": 53861,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H3",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": "Not Present"
+                },
+                {
+                    "at": 0,
+                    "cn": "08030000",
+                    "dc": 33047,
+                    "fileSeq": 1364,
+                    "frameDrop": 0,
+                    "frameSat": 7446,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": 8388607,
+                    "min": -6518764,
+                    "mt": "MTC-150",
+                    "on": 1,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "031408",
+                    "serial": 53812,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H2",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": "MTC-150"
+                },
+                {
+                    "at": 0,
+                    "cn": "08030000",
+                    "dc": 32944,
+                    "fileSeq": 1364,
+                    "frameDrop": 0,
+                    "frameSat": 0,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": 5691083,
+                    "min": -6085549,
+                    "mt": "MTC-150",
+                    "on": 1,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "031430",
+                    "serial": 53688,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H1",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": "MTC-150"
+                },
+                {
+                    "at": 0,
+                    "cn": "04030000",
+                    "dc": 32768,
+                    "fileSeq": 0,
+                    "frameDrop": 0,
+                    "frameSat": 0,
+                    "fw": "0001001FX",
+                    "ga": 4,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": -2147483648,
+                    "min": 2147483647,
+                    "mt": "",
+                    "on": 0,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0313FA",
+                    "serial": 0,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H4",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": ""
+                },
+                {
+                    "at": 0,
+                    "cn": "04030000",
+                    "dc": 32768,
+                    "fileSeq": 0,
+                    "frameDrop": 0,
+                    "frameSat": 0,
+                    "fw": "0001001FX",
+                    "ga": 4,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": -2147483648,
+                    "min": 2147483647,
+                    "mt": "",
+                    "on": 0,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0314A2",
+                    "serial": 0,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H5",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": ""
+                },
+                {
+                    "at": 0,
+                    "cn": "04030000",
+                    "dc": 32768,
+                    "fileSeq": 0,
+                    "frameDrop": 0,
+                    "frameSat": 0,
+                    "fw": "0001001FX",
+                    "ga": 4,
+                    "hw": "BCM01-K ",
+                    "lp": 10000,
+                    "max": -2147483648,
+                    "min": 2147483647,
+                    "mt": "",
+                    "on": 0,
+                    "pg": 1,
+                    "polInv": false,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "0314A8",
+                    "serial": 0,
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "H6",
+                    "ty": "M",
+                    "type": 4,
+                    "type_configured": 4,
+                    "type_name": "MTC-150",
+                    "type_name_detected": ""
+                },
+                {
+                    "at": 0,
+                    "cn": "18280000",
+                    "dc": 32728,
+                    "fileSeq": 1364,
+                    "frameDrop": 0,
+                    "frameSat": 0,
+                    "fw": "0001001FX",
+                    "ga": 16,
+                    "hw": "BCM01-K ",
+                    "length1": 50,
+                    "length2": 50,
+                    "lp": 10000,
+                    "max": 214371,
+                    "min": -251303,
+                    "on": 1,
+                    "pg": 4,
+                    "polInv": false,
+                    "pot_n": 175199.574954,
+                    "pot_p": 175162.574346,
+                    "ppsDrift": 0,
+                    "sampleRate": 24000,
+                    "ser": "03148A",
+                    "srd": 32,
+                    "ssp": 0,
+                    "tag": "E2",
+                    "ty": "E"
+                }
+            ],
+            "config_index": 0,
+            "name": "chconfig",
+            "version": 5
+        },
+        "decimation": {
+            "divider_id": 1,
+            "interleave_lev0": 1,
+            "interleave_lev1": 0,
+            "version_1": {
+                "interleave_150": 1,
+                "interleave_2400": 0,
+                "interleave_24k": 1,
+                "interleave_30": 0,
+                "interleave_96k": 0,
+                "period": 60
+            }
+        },
+        "df": 62777458688,
+        "dt": 63831015424,
+        "empower_version": "v1.48.1.3",
+        "gps_max": 14,
+        "gps_min": 7,
+        "instid": "10290",
+        "layout": {
+            "Company_Name": "Zonge Engineering",
+            "Declination": 5.5,
+            "E_Azimuth": 0,
+            "H1_Azimuth": 0,
+            "H1_Serial": 53688,
+            "H1_Type": 4,
+            "H1_Type_Name": "MTC-150",
+            "H2_Serial": 53812,
+            "H2_Type": 4,
+            "H2_Type_Name": "MTC-150",
+            "H3_Serial": 53861,
+            "H3_Type": 4,
+            "H3_Type_Name": "MTC-150",
+            "H4_Azimuth": 0,
+            "H4_Serial": 0,
+            "H4_Type": 4,
+            "H4_Type_Name": "MTC-150",
+            "H5_Serial": 0,
+            "H5_Type": 4,
+            "H5_Type_Name": "MTC-150",
+            "H6_Serial": 0,
+            "H6_Type": 4,
+            "H6_Type_Name": "MTC-150",
+            "Layout_Type": 0,
+            "Measured_Pot_Resist_E1_Neg": 176505.78992,
+            "Measured_Pot_Resist_E1_Pos": 176571.366871,
+            "Measured_Pot_Resist_E2_Neg": 175199.574954,
+            "Measured_Pot_Resist_E2_Pos": 175162.574346,
+            "Notes": "",
+            "Operator": "NP, PS",
+            "Pot_Dist_E1_Neg": 50,
+            "Pot_Dist_E1_Pos": 50,
+            "Pot_Dist_E2_Neg": 50,
+            "Pot_Dist_E2_Pos": 50,
+            "Station_Name": "REMOTE B",
+            "Survey_Name": "190254",
+            "closest_city": "Mount Isa",
+            "country": "AU",
+            "elecFilterType": 0,
+            "elev": 216.651088,
+            "isEMpowerFormat": true,
+            "lat": -20.223324,
+            "lon": 140.327314,
+            "status": "unapproved",
+            "timezone": "Australia/Brisbane",
+            "version": 5
+        },
+        "missingFrame": 0,
+        "motherboard": {
+            "mb_fw_ver": "00010035X",
+            "mb_hw_ver": "BMB01-G ",
+            "mb_serial": "03151C",
+            "version": 1
+        },
+        "name": "recording",
+        "ppsDrift": false,
+        "receiver_commercial_name": "MTU-8A",
+        "receiver_model": "RMT05",
+        "sampleClock": 768000,
+        "start": 1601417911,
+        "status": "dataacq",
+        "stop": 1601499731,
+        "sw_version": "v1.48.1.2",
+        "systime": 1601499731,
+        "temp_cel": 36,
+        "temperature_max": 58,
+        "temperature_min": 33,
+        "timing": {
+            "gps_alt": 216.651088,
+            "gps_lat": -20.223324,
+            "gps_lon": 140.327314,
+            "name": "timing",
+            "tm_alive": 1,
+            "tm_cpld": "2912",
+            "tm_debug": 0,
+            "tm_drift": "0",
+            "tm_drift_units": "20thMhz",
+            "tm_fw_ver": "FF01002DX",
+            "tm_hw_ver": "BTM01-I ",
+            "tm_leapSecAtRecStart": 18,
+            "tm_leapSecNow": 18,
+            "tm_ready": 1,
+            "tm_satcount": 10,
+            "tm_satmin": 7,
+            "tm_serial": "0314E7",
+            "tm_stabidx": 65535,
+            "tm_timeset": 1,
+            "tm_timeweek": 1,
+            "tm_utcset": 1,
+            "version": 3
+        },
+        "uptime": 82058,
+        "version": 10
+    },
+    "reference_type": "magnetic",
+    "robust_fine_pass_enabled": false,
+    "robust_max_rejection_ratio": 0,
+    "robust_quality_threshold": 0,
+    "robust_type_id": 0,
+    "start": 1601417912,
+    "status": "Unapproved",
+    "stop": 1601499731,
+    "time_elapsed": 223,
+    "time_zone": "local_time",
+    "time_zone_offset": 0,
+    "uuid": "{9b1597a6-e039-4652-9e6e-ec484e2fd126}",
+    "version": 1
+}
+
+
+>=DEFINEMEAS
+    MAXCHAN=7
+    MAXMEAS=7
+    UNITS=M
+    REFLAT=-20:12:43.4
+    REFLONG=140:38:8.6
+    REFELEV=169.701
+
+>HMEAS ID=1026311.0920 CHTYPE=HX X=8.5 Y=8.5 AZM=0 ACQCHAN=CH3
+>HMEAS ID=1026322.0920 CHTYPE=HY X=-8.5 Y=8.5 AZM=90 ACQCHAN=CH4
+>HMEAS ID=1026333.0920 CHTYPE=HZ X=21.2 Y=-21.2 AZM=0 ACQCHAN=CH5
+>EMEAS ID=1026341.0920 CHTYPE=EX X=0.00 Y=-50.00 X2=0.00 Y2=50.00 ACQCHAN=CH1
+>EMEAS ID=1026352.0920 CHTYPE=EY X=-50.00 Y=0.00 X2=50.00 Y2=0.00 ACQCHAN=CH2
+>HMEAS ID=1029061.0920 CHTYPE=HX X=8.5 Y=8.5 AZM=0 ACQCHAN=CH6
+>HMEAS ID=1029072.0920 CHTYPE=HY X=-8.5 Y=8.5 AZM=90 ACQCHAN=CH7
+
+>=SPECTRASECT
+    SECTID="P=299 R=REMOTE B (H) EDI"
+    NCHAN=7
+    NFREQ=100
+    MAXBLKS=100
+    // 7
+    1026311.0920
+    1026322.0920
+    1026333.0920
+    1026341.0920
+    1026352.0920
+    1029061.0920
+    1029072.0920
+
+>SPECTRA  FREQ=1.000000E+04 ROTSPEC=0 AVGT=1752818 // 49
+  1.00536E-05 -7.73296E-08  3.33217E-08  2.45970E-03 -3.49771E-03 -1.45534E-06 -7.02832E-07
+  5.15730E-06  9.43524E-06  3.63596E-08  4.16582E-03 -2.08462E-03 -6.32397E-07 -1.11446E-06
+  1.96007E-07  3.21517E-07  2.98424E-06  1.49678E-04 -6.51128E-05 -2.12295E-08 -2.27678E-08
+  2.28163E-03  3.60156E-03  1.60691E-04  3.84210E+00  1.48722E-01  1.18337E-04  3.06100E-04
+ -3.73670E-03 -2.18600E-03 -9.97575E-05 -2.01877E+00  3.39585E+00  2.13222E-03 -9.64861E-06
+  2.72569E-06 -8.16915E-07 -3.71415E-08 -6.64201E-04 -8.52201E-04  9.05710E-06 -1.22002E-07
+ -1.03107E-06 -1.76091E-06 -6.83750E-08 -1.35505E-03  6.92135E-04  4.52659E-06  9.78077E-06
+>SPECTRA  FREQ=8.800000E+03 ROTSPEC=0 AVGT=1805975 // 49
+  7.80876E-06 -7.43552E-08  3.69463E-08  2.09243E-03 -2.94732E-03 -3.37925E-06 -1.33446E-06
+  4.69949E-06  7.82732E-06  4.13140E-08  3.48470E-03 -1.79795E-03 -1.26918E-06 -1.41718E-06
+  1.82741E-07  2.79462E-07  9.13889E-07  1.16714E-04 -5.57000E-05 -3.98262E-08 -2.86739E-08
+  1.88923E-03  2.93787E-03  1.31042E-04  2.86453E+00  8.23191E-02  4.72989E-04  6.02572E-04
+ -2.95558E-03 -1.76570E-03 -8.54652E-05 -1.52058E+00  2.48123E+00  1.73752E-03 -2.99955E-04
+  3.27921E-07 -2.07757E-06 -8.84204E-08 -1.37115E-03  1.19322E-03  7.40423E-06 -1.41402E-07
+ -2.20572E-06 -2.62020E-06 -1.05661E-07 -1.69322E-03  1.39344E-03  4.27963E-06  8.03327E-06
+>SPECTRA  FREQ=7.200000E+03 ROTSPEC=0 AVGT=1793708 // 49
+  7.12711E-06 -1.63510E-09  4.36105E-08  2.02249E-03 -2.55081E-03 -4.01475E-06 -2.03175E-06
+  5.01761E-06  7.98885E-06  5.03939E-08  3.24592E-03 -1.72177E-03 -1.88526E-06 -2.55095E-06
+  1.87777E-07  2.83887E-07  3.18491E-07  1.01803E-04 -5.04126E-05 -4.52743E-08 -6.19964E-08
+  1.68231E-03  2.61633E-03  1.16154E-04  2.26045E+00  7.45018E-02  8.34331E-04  5.86321E-04
+ -2.40075E-03 -1.62290E-03 -7.64599E-05 -1.24490E+00  1.81130E+00  2.77912E-04 -6.64226E-04
+ -3.32613E-06 -3.58979E-06 -1.51924E-07 -1.93715E-03  2.67387E-03  6.87706E-06 -8.78373E-08
+ -3.70207E-06 -3.55406E-06 -1.49057E-07 -2.21760E-03  1.98563E-03  4.62700E-06  8.19019E-06
+>SPECTRA  FREQ=6.000000E+03 ROTSPEC=0 AVGT=1683305 // 49
+  2.59765E-06 -3.14578E-08  1.50807E-08  6.20447E-04 -8.40182E-04 -9.79275E-07 -5.22172E-07
+  1.77296E-06  2.86062E-06  1.80918E-08  1.02163E-03 -5.56857E-04 -5.74858E-07 -9.47127E-07
+  6.36861E-08  9.82939E-08  9.57797E-08  3.03048E-05 -1.51925E-05 -1.01932E-08 -2.54128E-08
+  5.38450E-04  8.29151E-04  3.53678E-05  6.24648E-01  1.08814E-02  2.91627E-04  9.61986E-06
+ -7.75147E-04 -4.98498E-04 -2.23738E-05 -3.46259E-01  5.23520E-01 -2.71285E-04 -2.96708E-04
+ -1.72996E-06 -1.27672E-06 -4.96263E-08 -5.80537E-04  8.68316E-04  2.52229E-06 -8.51919E-08
+ -1.31169E-06 -8.10679E-07 -3.42306E-08 -5.84054E-04  5.69722E-04  1.62038E-06  2.92061E-06
+>SPECTRA  FREQ=5.200000E+03 ROTSPEC=0 AVGT=1615155 // 49
+  1.65682E-06 -1.74166E-09  9.20908E-09  3.45226E-04 -4.94956E-04 -3.24764E-07 -2.33327E-07
+  1.05924E-06  1.84235E-06  1.16685E-08  6.01465E-04 -3.02545E-04 -1.95394E-07 -5.26185E-07
+  3.64714E-08  6.12026E-08  7.41806E-08  1.76226E-05 -7.94921E-06 -1.16477E-09 -1.48848E-08
+  2.77808E-04  4.66987E-04  1.98867E-05  3.28326E-01  7.30551E-03  1.78398E-04 -5.93870E-05
+ -4.36397E-04 -2.66405E-04 -1.18329E-05 -1.68310E-01  2.75991E-01 -2.03621E-04 -1.58409E-04
+ -9.40910E-07 -6.77585E-07 -2.52100E-08 -2.40177E-04  3.60602E-04  1.64151E-06 -2.80925E-08
+ -6.63814E-07 -2.29656E-07 -1.15862E-08 -2.35110E-04  2.52214E-04  9.60417E-07  1.85639E-06
+>SPECTRA  FREQ=4.400000E+03 ROTSPEC=0 AVGT=1442054 // 49
+  9.60690E-07 -1.84949E-07 -2.62542E-09  6.61937E-05 -2.65095E-04 -1.47462E-07 -1.66620E-07
+  3.78154E-07  1.11632E-06  6.78656E-09  3.24463E-04 -1.36726E-04 -3.49840E-09 -4.08204E-07
+  1.36140E-08  3.45632E-08  6.35782E-08  9.00257E-06 -4.12834E-06  5.08265E-10 -1.40293E-08
+  1.40399E-04  2.44800E-04  1.00397E-05  1.57872E-01 -2.64081E-02  3.65214E-05 -1.58074E-04
+ -2.15378E-04 -1.92847E-05 -1.75524E-06 -4.33329E-02  1.30714E-01 -1.19592E-05 -8.61800E-05
+ -1.63827E-07 -1.08248E-07 -3.84967E-09 -2.50708E-05  8.33332E-05  9.69335E-07 -1.96204E-07
+ -3.82401E-07  2.09629E-07  4.17930E-09 -7.41662E-05  1.41088E-04  3.03861E-07  1.15830E-06
+>SPECTRA  FREQ=3.600000E+03 ROTSPEC=0 AVGT=1279857 // 49
+  6.96665E-07 -2.49556E-07 -7.82528E-09 -4.74017E-05 -1.75511E-04 -1.14785E-07 -2.01401E-07
+  2.65838E-08  7.78699E-07  4.62491E-09  1.97794E-04 -4.60344E-05  1.57478E-07 -2.22407E-07
+  2.78765E-09  2.29157E-08  5.70700E-08  5.26230E-06 -1.99514E-06  4.83714E-09 -9.88580E-09
+  7.39282E-05  1.46166E-04  5.89012E-06  8.46552E-02 -3.06370E-02  3.75912E-05 -1.52836E-04
+ -1.32673E-04  7.40587E-05  2.02634E-06  3.52458E-03  7.64789E-02  1.08362E-04 -4.16786E-05
+  3.04983E-07 -1.26988E-08  9.72180E-10  4.15436E-05 -3.17819E-05  7.31639E-07 -2.64579E-07
+ -2.67713E-07  3.90094E-07  1.11109E-08  1.76001E-05  1.13884E-04 -4.49013E-08  8.30276E-07
+>SPECTRA  FREQ=3.000000E+03 ROTSPEC=0 AVGT=1008620 // 49
+  4.23392E-07 -1.72265E-07 -6.63038E-09 -6.18451E-05 -9.86872E-05 -9.98682E-08 -1.43530E-07
+ -1.19752E-07  6.02759E-07  4.21676E-09  1.40147E-04  6.95613E-06  1.51241E-07 -1.11820E-07
+ -2.06789E-09  1.73413E-08  2.71227E-08  3.49769E-06 -4.87317E-07  5.56127E-09 -7.19819E-09
+  2.05929E-05  1.02358E-04  4.13021E-06  5.29064E-02 -1.67825E-02  5.38918E-05 -1.38791E-04
+ -7.24993E-05  7.23738E-05  2.30536E-06  1.51179E-02  3.83194E-02  9.62682E-05 -4.06665E-05
+  3.10127E-07 -1.04002E-07 -1.68560E-09  1.89167E-05 -3.30722E-05  4.62901E-07 -1.83463E-07
+ -2.38885E-07  4.82953E-07  1.37028E-08  5.91201E-05  8.45078E-05 -1.76156E-07  6.58243E-07
+>SPECTRA  FREQ=2.600000E+03 ROTSPEC=0 AVGT=960915 // 49
+  6.24501E-07 -3.16768E-07 -1.15649E-08 -7.49993E-05 -1.36527E-04 -1.68092E-07 -3.01192E-07
+ -9.97915E-08  8.27341E-07  6.71076E-09  1.75533E-04 -1.71738E-05  2.51448E-07 -2.26332E-07
+  2.18862E-10  2.40706E-08  2.71009E-08  4.23058E-06 -1.66309E-06  8.82698E-09 -1.32076E-08
+  5.45532E-05  1.26944E-04  5.31523E-06  5.92028E-02 -2.45080E-02  5.27650E-05 -1.94037E-04
+ -9.57123E-05  9.60835E-05  2.91485E-06  1.19998E-02  4.70133E-02  1.42658E-04 -2.97704E-05
+  5.04928E-07 -4.89619E-08  1.49531E-09  4.88308E-05 -4.38566E-05  6.51282E-07 -3.43763E-07
+ -2.94907E-07  7.15325E-07  1.95105E-08  6.39910E-05  1.20386E-04 -1.72725E-07  9.66212E-07
+>SPECTRA  FREQ=2.200000E+03 ROTSPEC=0 AVGT=941833 // 49
+  8.13460E-07 -4.87647E-07 -1.72511E-08 -8.37996E-05 -1.61954E-04 -1.75728E-07 -5.05233E-07
+ -5.75775E-08  1.24606E-06  1.09204E-08  2.41646E-04 -4.01870E-05  4.22392E-07 -2.30074E-07
+  3.57272E-09  3.60364E-08  2.76025E-08  5.63316E-06 -2.79090E-06  1.47331E-08 -1.76961E-08
+  8.84488E-05  1.71300E-04  7.22421E-06  7.25407E-02 -2.99307E-02  7.20174E-05 -2.63772E-04
+ -1.08807E-04  1.19473E-04  3.50229E-06  9.64655E-03  4.90316E-02  1.75181E-04  7.44352E-06
+  7.26202E-07 -4.54821E-08  4.02098E-09  7.81221E-05 -6.60277E-05  8.83742E-07 -5.20348E-07
+ -2.26185E-07  1.16261E-06  3.23083E-08  1.18252E-04  1.43323E-04 -1.55804E-07  1.37567E-06
+>SPECTRA  FREQ=1.800000E+03 ROTSPEC=0 AVGT=883224 // 49
+  9.40660E-07 -5.54809E-07 -1.88936E-08 -6.92353E-05 -1.68473E-04 -1.31216E-07 -5.43118E-07
+  1.08720E-08  1.50077E-06  1.36128E-08  2.61327E-04 -5.18334E-05  5.55119E-07 -1.90615E-07
+  7.35879E-09  4.24900E-08  2.97737E-08  5.87900E-06 -3.25787E-06  1.87282E-08 -1.90578E-08
+  1.01259E-04  1.79493E-04  7.62753E-06  6.85946E-02 -2.73671E-02  7.84795E-05 -2.80901E-04
+ -1.08609E-04  1.14434E-04  3.11651E-06  5.21622E-03  4.45943E-02  1.75190E-04  3.11665E-05
+  8.50401E-07 -4.35558E-08  6.21286E-09  9.49836E-05 -7.81129E-05  9.77145E-07 -5.71545E-07
+ -8.46593E-08  1.44871E-06  3.99671E-08  1.42935E-04  1.21943E-04 -1.07189E-07  1.64050E-06
+>SPECTRA  FREQ=1.500000E+03 ROTSPEC=0 AVGT=631069 // 49
+  2.46118E-07  7.09812E-08  1.62222E-09  2.18046E-05 -3.41891E-05 -8.85104E-08  1.11620E-07
+  9.62463E-08  8.16545E-07  6.24589E-09  1.24305E-04  3.30285E-06 -2.07269E-08 -8.27250E-08
+  2.69019E-09  2.09164E-08  1.41356E-08  2.59271E-06 -2.61067E-08  1.26666E-11 -8.06860E-09
+ -8.61551E-07  8.42227E-05  3.17541E-06  2.82252E-02  2.51015E-03 -1.27579E-06 -1.32409E-04
+ -2.55495E-05 -1.43713E-05 -2.84129E-07 -9.01256E-04  8.10621E-03  3.48568E-05 -6.83691E-06
+  1.62744E-07 -2.51453E-09  6.12131E-10 -3.22205E-06 -4.32267E-06  2.54964E-07  8.02869E-08
+  1.07701E-07  7.97720E-07  2.00381E-08  7.08610E-05 -2.30201E-05  1.75536E-08  9.00384E-07
+>SPECTRA  FREQ=1.300000E+03 ROTSPEC=0 AVGT=779636 // 49
+  3.63624E-07  3.30139E-08  2.00787E-10  2.03156E-05 -4.77762E-05 -9.72403E-08  1.10842E-07
+  1.28109E-07  1.06953E-06  8.40486E-09  1.49045E-04 -2.25066E-06  4.19785E-08 -8.15780E-08
+  4.26255E-09  2.64222E-08  1.44635E-08  2.93070E-06 -3.40292E-07  1.76438E-09 -9.92352E-09
+  7.62179E-06  1.00447E-04  3.71674E-06  3.07486E-02  9.14611E-04 -3.71838E-07 -1.53896E-04
+ -3.39466E-05 -8.72409E-06 -1.28480E-07 -1.01737E-03  1.01174E-02  4.86319E-05 -4.75924E-06
+  2.76301E-07  3.67807E-08  2.84334E-09  9.77189E-06 -1.26615E-05  3.87899E-07  4.75372E-08
+  1.37182E-07  1.03391E-06  2.48633E-08  8.67978E-05 -2.17525E-05  5.26167E-08  1.12555E-06
+>SPECTRA  FREQ=1.058824E+03 ROTSPEC=0 AVGT=903669 // 49
+  2.94302E-06  1.60040E-07 -1.10872E-09  1.64586E-04 -3.43692E-04 -2.48251E-07  7.78357E-07
+  1.26754E-06  7.81212E-06  6.32647E-08  9.57480E-04 -6.32624E-05  4.15167E-07 -5.82730E-07
+  4.36918E-08  1.92614E-07  7.08782E-08  1.85192E-05 -4.01605E-06  1.82379E-08 -7.42992E-08
+  8.62385E-05  6.46498E-04  2.39643E-05  1.72919E-01  3.23271E-03 -2.58945E-05 -1.00410E-03
+ -2.43019E-04 -7.29239E-05 -1.56082E-06 -1.32223E-02  6.31671E-02  3.16749E-04  1.11241E-05
+  2.38612E-06  5.31145E-07  2.88648E-08  9.63407E-05 -1.68121E-04  2.91377E-06  2.85506E-07
+  1.31718E-06  7.71880E-06  1.82259E-07  5.71402E-04 -1.60035E-04  7.07487E-07  8.40917E-06
+>SPECTRA  FREQ=9.176471E+02 ROTSPEC=0 AVGT=1024976 // 49
+  4.37596E-07  9.15440E-09 -1.76658E-10  2.63317E-05 -4.64533E-05  3.16940E-09  1.02439E-07
+  2.34422E-07  1.04593E-06  8.28419E-09  1.16765E-04 -1.59400E-05  6.86455E-08 -4.50638E-08
+  7.61567E-09  2.52242E-08  7.59866E-09  2.20477E-06 -6.95658E-07  2.63402E-09 -8.78272E-09
+  1.68519E-05  7.89775E-05  2.85594E-06  1.91869E-02  1.35646E-04 -1.07755E-05 -1.21292E-04
+ -3.25607E-05 -1.25482E-05 -3.32248E-07 -2.66852E-03  7.64012E-03  4.23892E-05  9.29988E-06
+  3.84670E-07  1.48487E-07  6.16509E-09  1.91186E-05 -2.91374E-05  4.48572E-07  3.21214E-08
+  2.44851E-07  1.04772E-06  2.45402E-08  7.44829E-05 -2.43336E-05  1.78575E-07  1.13638E-06
+>SPECTRA  FREQ=7.764706E+02 ROTSPEC=0 AVGT=1136742 // 49
+  8.93465E-07  1.05573E-08 -6.97680E-10  4.72209E-05 -8.61684E-05 -2.30197E-10  1.50413E-07
+  4.71542E-07  1.70718E-06  1.35948E-08  1.71896E-04 -3.28422E-05  9.76912E-08 -8.43027E-08
+  1.63712E-08  4.08140E-08  1.05305E-08  3.19655E-06 -1.45575E-06  3.92345E-09 -1.46312E-08
+  3.12929E-05  1.16276E-04  4.17429E-06  2.54568E-02  1.19601E-04 -2.98475E-05 -1.81638E-04
+ -6.02697E-05 -2.43414E-05 -7.29132E-07 -4.87202E-03  1.27344E-02  8.27273E-05  2.38989E-05
+  8.34746E-07  3.73755E-07  1.49493E-08  3.56328E-05 -5.63422E-05  9.52816E-07  4.82066E-08
+  4.90723E-07  1.73561E-06  4.00131E-08  1.10208E-04 -4.04404E-05  4.37342E-07  1.89717E-06
+>SPECTRA  FREQ=6.352941E+02 ROTSPEC=0 AVGT=1260775 // 49
+  3.90656E-06  1.06311E-07 -4.94173E-10  1.95308E-04 -3.29592E-04  8.87880E-08  5.54124E-07
+  2.18714E-06  6.22536E-06  5.11022E-08  5.48792E-04 -1.41504E-04  2.17702E-07 -3.04399E-07
+  7.40321E-08  1.45667E-07  3.02272E-08  9.79315E-06 -5.82041E-06  1.03219E-08 -5.60820E-08
+  1.22106E-04  3.72342E-04  1.33227E-05  7.12373E-02  1.18776E-03 -1.52119E-04 -5.90402E-04
+ -2.31835E-04 -1.12874E-04 -3.39888E-06 -1.89310E-02  4.25080E-02  3.21711E-04  1.22214E-04
+  3.81262E-06  1.92389E-06  7.11256E-08  1.35154E-04 -2.34540E-04  4.24194E-06  2.54489E-07
+  2.33132E-06  6.46139E-06  1.46050E-07  3.60724E-04 -1.62955E-04  2.22181E-06  7.09781E-06
+>SPECTRA  FREQ=5.294118E+02 ROTSPEC=0 AVGT=1300302 // 49
+  1.42397E-06  6.94176E-08  2.52399E-09  7.32755E-05 -1.05139E-04  1.53626E-08  1.67578E-07
+  9.11058E-07  2.09419E-06  1.73265E-08  1.61854E-04 -5.39587E-05 -2.84083E-08 -1.17029E-07
+  2.88421E-08  4.69972E-08  7.58105E-09  2.72286E-06 -1.90207E-06 -6.64102E-10 -1.93839E-08
+  4.28831E-05  1.10068E-04  3.83147E-06  1.84038E-02  6.28530E-04 -6.52217E-05 -1.77222E-04
+ -7.44014E-05 -4.57769E-05 -1.45150E-06 -6.53325E-03  1.18503E-02  1.06010E-04  5.37394E-05
+  1.42916E-06  8.35797E-07  2.78180E-08  4.21438E-05 -7.63283E-05  1.56003E-06  1.37376E-07
+  9.94148E-07  2.20533E-06  4.80117E-08  1.07127E-04 -5.82461E-05  9.67410E-07  2.42707E-06
+>SPECTRA  FREQ=4.588235E+02 ROTSPEC=0 AVGT=1364363 // 49
+  7.03238E-06  5.59984E-07  1.87320E-08  3.69894E-04 -4.84840E-04  5.12375E-08  9.35421E-07
+  4.78491E-06  9.66665E-06  7.81129E-08  7.02853E-04 -2.63390E-04 -4.98631E-07 -5.40504E-07
+  1.41358E-07  2.12628E-07  3.08660E-08  1.16220E-05 -8.50896E-06 -1.36513E-08 -8.95008E-08
+  1.95393E-04  4.73952E-04  1.62279E-05  7.47529E-02  4.46048E-03 -3.52336E-04 -7.76306E-04
+ -3.42504E-04 -2.44300E-04 -7.20180E-06 -3.08204E-02  5.09004E-02  4.97709E-04  2.69447E-04
+  7.18648E-06  4.58747E-06  1.40008E-07  1.90801E-04 -3.56203E-04  7.84859E-06  9.26138E-07
+  5.21097E-06  1.02777E-05  2.18988E-07  4.65818E-04 -2.94820E-04  5.24185E-06  1.13672E-05
+>SPECTRA  FREQ=3.882353E+02 ROTSPEC=0 AVGT=1497937 // 49
+  1.49844E-06  1.34769E-07  4.17400E-09  6.91788E-05 -9.24903E-05  3.37941E-08  2.32966E-07
+  9.87260E-07  1.90018E-06  1.61482E-08  1.23032E-04 -4.81819E-05 -1.16470E-07 -9.47852E-08
+  2.78513E-08  3.85269E-08  5.51441E-09  1.78117E-06 -1.49271E-06 -2.86361E-09 -1.80229E-08
+  3.48216E-05  8.35220E-05  2.75403E-06  1.16912E-02  8.86933E-04 -6.73971E-05 -1.37506E-04
+ -6.58349E-05 -4.70260E-05 -1.31905E-06 -5.15117E-03  8.71895E-03  9.60585E-05  4.98666E-05
+  1.56905E-06  9.73703E-07  2.83961E-08  3.54219E-05 -7.14963E-05  1.71807E-06  2.26966E-07
+  1.10142E-06  2.05398E-06  4.01544E-08  8.42931E-05 -5.86850E-05  1.12064E-06  2.28935E-06
+>SPECTRA  FREQ=3.176471E+02 ROTSPEC=0 AVGT=1654682 // 49
+  1.82056E-06  1.01808E-07  4.02364E-09  7.08538E-05 -9.47625E-05  2.46896E-08  1.96752E-07
+  1.24100E-06  2.25569E-06  1.84208E-08  1.22774E-04 -5.44066E-05 -9.93792E-08 -1.15315E-07
+  3.29132E-08  3.96812E-08  5.72587E-09  1.46748E-06 -1.54528E-06 -3.24985E-09 -2.04560E-08
+  4.14503E-05  8.48469E-05  2.51235E-06  9.93222E-03  4.87089E-04 -7.32958E-05 -1.38732E-04
+ -6.81052E-05 -4.72332E-05 -1.30892E-06 -4.72610E-03  7.58056E-03  1.02286E-04  5.77968E-05
+  1.97222E-06  1.28951E-06  3.49811E-08  4.34321E-05 -7.54941E-05  2.19453E-06  2.07839E-07
+  1.39454E-06  2.46357E-06  4.17234E-08  8.65421E-05 -5.84010E-05  1.47357E-06  2.75319E-06
+>SPECTRA  FREQ=2.647059E+02 ROTSPEC=0 AVGT=1636963 // 49
+  1.83307E-06  1.60180E-07  3.88421E-09  6.79861E-05 -8.68082E-05  1.71879E-08  2.50562E-07
+  1.26629E-06  2.25369E-06  1.64653E-08  1.11843E-04 -4.87637E-05 -1.68455E-07 -1.21863E-07
+  3.07832E-08  3.57562E-08  5.13072E-09  1.19987E-06 -1.31599E-06 -3.47163E-09 -1.83572E-08
+  3.62344E-05  7.82037E-05  2.06952E-06  8.30826E-03  6.33075E-04 -7.23788E-05 -1.27392E-04
+ -6.34617E-05 -4.74001E-05 -1.14189E-06 -4.05520E-03  6.38982E-03  9.57250E-05  5.23378E-05
+  2.02402E-06  1.35095E-06  3.35335E-08  3.87934E-05 -7.12616E-05  2.28245E-06  2.74761E-07
+  1.42897E-06  2.47683E-06  3.77416E-08  8.00401E-05 -5.77377E-05  1.54387E-06  2.78148E-06
+>SPECTRA  FREQ=2.294118E+02 ROTSPEC=0 AVGT=1718743 // 49
+  1.65144E-06  1.24658E-07 -5.72154E-10  4.88752E-05 -6.66904E-05  6.09104E-09  1.88909E-07
+  1.07382E-06  1.86659E-06  9.69428E-09  7.87518E-05 -3.54787E-05 -1.24280E-07 -1.19406E-07
+  2.48355E-08  2.42406E-08  3.98324E-09  7.24177E-07 -1.02628E-06  1.24565E-09 -1.09030E-08
+  2.82277E-05  5.77982E-05  1.16928E-06  5.14139E-03  3.71710E-04 -5.35615E-05 -9.11869E-05
+ -5.11112E-05 -3.53067E-05 -6.85066E-07 -2.58785E-03  4.32841E-03  7.59443E-05  3.83625E-05
+  1.87649E-06  1.18653E-06  2.80715E-08  3.17737E-05 -5.85135E-05  2.17006E-06  2.03919E-07
+  1.21430E-06  2.06961E-06  2.55572E-08  5.91470E-05 -4.25155E-05  1.35836E-06  2.35544E-06
+>SPECTRA  FREQ=1.941176E+02 ROTSPEC=0 AVGT=1767811 // 49
+  1.69305E-06  1.10514E-07 -3.80407E-09  4.23838E-05 -6.16792E-05  1.32797E-08  1.67180E-07
+  1.04011E-06  1.82480E-06  7.02459E-09  6.91592E-05 -3.10617E-05 -9.47248E-08 -1.38071E-07
+  2.44987E-08  2.15404E-08  3.75589E-09  6.12931E-07 -1.01121E-06  5.02725E-09 -8.01854E-09
+  2.61798E-05  5.27755E-05  8.97401E-07  4.17309E-03  2.70962E-04 -4.70226E-05 -8.13143E-05
+ -4.89982E-05 -3.13192E-05 -5.21727E-07 -2.08588E-03  3.71224E-03  7.13718E-05  3.35861E-05
+  1.96039E-06  1.17584E-06  2.84152E-08  3.07561E-05 -5.73450E-05  2.30267E-06  1.61928E-07
+  1.17634E-06  2.03636E-06  2.25442E-08  5.37571E-05 -3.75553E-05  1.33705E-06  2.32119E-06
+>SPECTRA  FREQ=1.588235E+02 ROTSPEC=0 AVGT=1815516 // 49
+  5.02312E-06  2.98091E-07 -2.16007E-08  1.05363E-04 -1.61597E-04  1.12067E-07  4.22289E-07
+  2.92416E-06  5.06431E-06  8.23102E-09  1.69194E-04 -7.72526E-05 -1.85057E-07 -4.43584E-07
+  7.03064E-08  5.20335E-08  1.01719E-08  1.51243E-06 -2.87111E-06  2.83671E-08 -9.57775E-09
+  6.94486E-05  1.36690E-04  1.70412E-06  9.41697E-03  5.97593E-04 -1.17532E-04 -2.02470E-04
+ -1.35766E-04 -8.10760E-05 -1.11706E-06 -4.78115E-03  8.98634E-03  1.88922E-04  8.38998E-05
+  5.94093E-06  3.38541E-06  8.31194E-08  8.56988E-05 -1.64354E-04  7.11202E-06  3.24569E-07
+  3.30617E-06  5.69371E-06  5.46085E-08  1.39149E-04 -9.58437E-05  3.83656E-06  6.53603E-06
+>SPECTRA  FREQ=1.323529E+02 ROTSPEC=0 AVGT=1837324 // 49
+  1.29479E-06  6.71121E-08 -9.71136E-09  1.93109E-05 -3.31084E-05  7.16976E-08  8.26497E-08
+  6.66660E-07  1.25591E-06 -2.67613E-09  3.32659E-05 -1.35523E-05  6.87790E-09 -1.46091E-07
+  1.81209E-08  1.09159E-08  2.54998E-09  3.55555E-07 -7.07824E-07  1.30481E-08  2.67743E-09
+  1.48226E-05  3.09675E-05  2.03200E-07  1.65348E-03  9.38459E-05 -2.07784E-05 -4.17779E-05
+ -3.21091E-05 -1.63191E-05 -1.89923E-07 -7.66776E-04  1.66912E-03  3.87328E-05  1.47900E-05
+  1.57369E-06  7.91118E-07  2.16446E-08  1.98929E-05 -4.09092E-05  1.93709E-06  3.45500E-09
+  7.54163E-07  1.43890E-06  1.18009E-08  3.16741E-05 -1.89085E-05  8.89876E-07  1.68567E-06
+>SPECTRA  FREQ=1.147059E+02 ROTSPEC=0 AVGT=1841413 // 49
+  1.41005E-06  5.21219E-08 -1.40236E-08  1.78900E-05 -3.19386E-05  1.12154E-07  4.88123E-08
+  7.04358E-07  1.26604E-06 -6.29073E-09  2.98296E-05 -1.31580E-05  5.18500E-08 -1.61866E-07
+  2.05876E-08  1.10585E-08  2.68879E-09  4.12971E-07 -8.04761E-07  1.89593E-08  6.64578E-09
+  1.56151E-05  3.01005E-05  1.15952E-07  1.42708E-03  6.59888E-05 -1.85277E-05 -3.85101E-05
+ -3.37393E-05 -1.61169E-05 -1.70284E-07 -6.98267E-04  1.55355E-03  3.66256E-05  1.46425E-05
+  1.72342E-06  8.36228E-07  2.41422E-08  2.12249E-05 -4.38346E-05  2.13875E-06 -6.78719E-08
+  7.93535E-07  1.46850E-06  1.23486E-08  3.11681E-05 -1.81136E-05  9.35811E-07  1.74820E-06
+>SPECTRA  FREQ=9.705882E+01 ROTSPEC=0 AVGT=1823694 // 49
+  1.61847E-06  5.98626E-08 -1.89479E-08  1.76203E-05 -3.15207E-05  1.78724E-07  2.75783E-08
+  7.90547E-07  1.45545E-06 -1.09223E-08  2.96960E-05 -1.25282E-05  8.87391E-08 -2.16637E-07
+  2.53178E-08  1.33036E-08  3.08227E-09  5.23358E-07 -9.29029E-07  2.62958E-08  1.17507E-08
+  1.70343E-05  3.34140E-05  8.49566E-08  1.38206E-03  6.42329E-05 -1.72951E-05 -4.03519E-05
+ -3.74148E-05 -1.72131E-05 -2.14637E-07 -6.57072E-04  1.50196E-03  3.48320E-05  1.48035E-05
+  1.98553E-06  9.40276E-07  2.87469E-08  2.35375E-05 -4.94423E-05  2.58699E-06 -1.42428E-07
+  9.07867E-07  1.73085E-06  1.59668E-08  3.54058E-05 -1.90951E-05  1.17207E-06  2.25443E-06
+>SPECTRA  FREQ=7.941176E+01 ROTSPEC=0 AVGT=1857769 // 49
+  1.97752E-06  7.66044E-08 -2.85535E-08  1.68051E-05 -3.21135E-05  2.88982E-07  2.31993E-08
+  8.65793E-07  1.66600E-06 -1.82517E-08  2.86539E-05 -1.09267E-05  1.38999E-07 -2.58541E-07
+  3.23496E-08  1.41646E-08  3.80772E-09  6.53061E-07 -1.16104E-06  3.92365E-08  2.03271E-08
+  1.78702E-05  3.70016E-05  1.01021E-09  1.32425E-03  7.36506E-05 -1.42007E-05 -4.08090E-05
+ -4.45191E-05 -1.80596E-05 -2.72263E-07 -5.93068E-04  1.54859E-03  3.28610E-05  1.34910E-05
+  2.39517E-06  9.88812E-07  3.46001E-08  2.43299E-05 -5.88748E-05  2.99207E-06 -2.37943E-07
+  1.00136E-06  2.03556E-06  1.82260E-08  4.08604E-05 -1.98553E-05  1.12219E-06  2.56376E-06
+>SPECTRA  FREQ=6.500000E+01 ROTSPEC=0 AVGT=1840050 // 49
+  1.45156E-06  6.50484E-08 -2.44889E-08  1.01131E-05 -1.93229E-05  2.68170E-07  1.75580E-08
+  5.96127E-07  1.18726E-06 -1.76141E-08  1.69295E-05 -5.71391E-06  1.17409E-07 -1.84461E-07
+  2.59400E-08  1.11664E-08  2.89605E-09  5.44630E-07 -8.73832E-07  3.36299E-08  2.04763E-08
+  1.19515E-05  2.57284E-05 -1.42135E-08  8.05355E-04  5.27320E-05 -6.94663E-06 -2.54048E-05
+ -3.21419E-05 -1.20200E-05 -2.52254E-07 -3.43784E-04  9.81437E-04  1.72628E-05  7.69676E-06
+  1.72050E-06  6.47976E-07  2.55781E-08  1.56927E-05 -4.18566E-05  2.13565E-06 -2.10093E-07
+  7.09874E-07  1.49538E-06  1.55406E-08  2.98852E-05 -1.34593E-05  7.67587E-07  1.96853E-06
+>SPECTRA  FREQ=5.500000E+01 ROTSPEC=0 AVGT=1785530 // 49
+  2.36786E-06  1.15391E-07 -4.52997E-08  1.38278E-05 -2.74970E-05  4.67195E-07 -1.10170E-08
+  8.73459E-07  1.91015E-06 -3.28915E-08  2.39353E-05 -6.52629E-06  2.25689E-07 -2.22837E-07
+  4.64248E-08  1.84288E-08  5.05969E-09  9.38048E-07 -1.50354E-06  6.28006E-08  3.97459E-08
+  1.70541E-05  4.05843E-05 -2.99032E-08  1.17692E-03  8.57385E-05 -7.07898E-06 -3.59890E-05
+ -5.21165E-05 -1.70848E-05 -5.02616E-07 -4.47017E-04  1.48481E-03  2.23678E-05  1.09003E-05
+  2.80627E-06  8.84088E-07  4.54344E-08  2.14272E-05 -6.78605E-05  4.55114E-06 -1.07040E-06
+  1.12112E-06  2.44426E-06  3.04921E-08  4.91844E-05 -2.08128E-05  2.48422E-06  5.37999E-06
+>SPECTRA  FREQ=4.500000E+01 ROTSPEC=0 AVGT=1797797 // 49
+  2.65784E-06  1.71314E-07 -6.05975E-08  1.12725E-05 -2.25277E-05  5.99278E-07  8.45309E-08
+  7.40882E-07  1.81477E-06 -4.37277E-08  1.75896E-05 -1.68009E-06  1.80564E-07 -1.18600E-07
+  6.48358E-08  2.14741E-08  6.55155E-09  1.12936E-06 -1.82686E-06  8.32242E-08  5.86190E-08
+  1.34580E-05  3.80003E-05  9.51024E-09  9.73258E-04  1.15335E-04 -3.40723E-06 -2.66560E-05
+ -5.82139E-05 -1.39793E-05 -9.07532E-07 -3.04467E-04  1.48490E-03  1.23132E-05  5.13760E-06
+  2.97831E-06  6.45365E-07  5.68345E-08  1.49115E-05 -7.13256E-05  5.08103E-06 -1.28785E-06
+  1.03094E-06  2.45231E-06  3.81975E-08  5.01534E-05 -1.90996E-05  2.86478E-06  6.50457E-06
+>SPECTRA  FREQ=3.750000E+01 ROTSPEC=0 AVGT=1860496 // 49
+  1.25096E-06  8.93357E-08 -3.04117E-08  4.99764E-06 -9.25084E-06  2.88744E-07  8.00754E-08
+  3.37458E-07  7.61533E-07 -2.13075E-08  6.66624E-06 -2.16068E-07  4.22184E-08 -7.04091E-08
+  3.28491E-08  1.08002E-08  3.34940E-09  5.38517E-07 -8.83954E-07  3.92169E-08  2.75133E-08
+  5.99444E-06  1.58027E-05  2.88941E-08  3.92139E-04  5.81351E-05 -1.99239E-06 -1.06481E-05
+ -2.69899E-05 -6.45788E-06 -4.87229E-07 -1.33685E-04  6.66857E-04  3.74116E-06  9.19243E-07
+  1.31739E-06  2.97527E-07  2.65494E-08  6.36432E-06 -3.11636E-05  1.53215E-06 -1.17223E-07
+  4.41665E-07  1.04412E-06  1.64610E-08  2.11438E-05 -8.13930E-06  4.12035E-07  1.62461E-06
+>SPECTRA  FREQ=3.250000E+01 ROTSPEC=0 AVGT=1860496 // 49
+  1.54165E-06  8.16767E-08 -3.91506E-08  4.66458E-06 -9.79289E-06  3.56471E-07  7.62305E-08
+  3.55618E-07  8.48692E-07 -2.57606E-08  6.62333E-06 -1.10921E-07  6.28284E-08 -5.63613E-08
+  4.40072E-08  1.41911E-08  4.40273E-09  6.42754E-07 -1.10714E-06  4.96089E-08  3.41435E-08
+  6.33150E-06  1.75201E-05  7.89408E-08  4.18861E-04  5.51174E-05 -1.21053E-06 -1.04230E-05
+ -3.28948E-05 -6.43150E-06 -7.01650E-07 -1.29200E-04  7.91725E-04  2.54880E-06  7.11964E-07
+  1.55700E-06  2.81164E-07  3.43053E-08  6.02271E-06 -3.66327E-05  1.74446E-06 -1.31253E-07
+  4.69719E-07  1.18320E-06  2.11521E-08  2.40533E-05 -8.27565E-06  3.62644E-07  1.91832E-06
+>SPECTRA  FREQ=2.750000E+01 ROTSPEC=0 AVGT=1860496 // 49
+  1.84496E-06  4.78499E-08 -5.10848E-08  3.66843E-06 -1.01380E-05  4.33084E-07  4.11238E-08
+  3.57528E-07  8.35547E-07 -2.78227E-08  5.73086E-06 -5.10004E-07  9.56496E-08 -2.48777E-08
+  6.04264E-08  1.88003E-08  6.05641E-09  6.97651E-07 -1.40989E-06  6.36357E-08  3.79242E-08
+  6.58463E-06  1.71427E-05  1.76957E-07  3.96720E-04  4.04375E-05 -1.33783E-07 -8.62171E-06
+ -4.04246E-05 -6.30370E-06 -1.03434E-06 -1.25492E-04  9.51501E-04  8.66218E-07  1.14794E-06
+  1.84634E-06  2.56913E-07  4.60276E-08  5.54279E-06 -4.31715E-05  1.99377E-06 -1.60410E-07
+  4.86797E-07  1.18014E-06  2.72221E-08  2.41057E-05 -8.36084E-06  3.30790E-07  1.84230E-06
+>SPECTRA  FREQ=2.250000E+01 ROTSPEC=0 AVGT=1860496 // 49
+  2.06123E-06  5.15062E-08 -6.02716E-08  3.41696E-06 -9.14153E-06  4.59751E-07  8.03129E-08
+  3.55301E-07  8.88963E-07 -3.24538E-08  5.31244E-06  5.88464E-09  8.77637E-08  1.67330E-08
+  7.98516E-08  2.48099E-08  8.85170E-09  8.07157E-07 -1.62646E-06  7.32730E-08  4.64809E-08
+  6.44177E-06  1.81267E-05  2.88577E-07  4.07635E-04  4.45671E-05  1.06266E-07 -7.20933E-06
+ -4.53517E-05 -6.14174E-06 -1.47593E-06 -1.15889E-04  1.04840E-03 -1.15333E-06 -1.86631E-07
+  1.97269E-06  2.24364E-07  5.97363E-08  4.65782E-06 -4.57812E-05  2.03212E-06 -1.24833E-07
+  4.93292E-07  1.25922E-06  3.42258E-08  2.58538E-05 -8.48785E-06  2.89619E-07  2.12053E-06
+>SPECTRA  FREQ=1.875000E+01 ROTSPEC=0 AVGT=1860496 // 49
+  1.07796E-06  1.95784E-08 -3.28262E-08  1.63184E-06 -4.06450E-06  2.29532E-07  4.84015E-08
+  2.05100E-07  4.86791E-07 -1.92686E-08  2.63003E-06 -8.87597E-08  5.56766E-08  3.16831E-08
+  4.77498E-08  1.73020E-08  6.71580E-09  4.83766E-07 -8.69972E-07  3.91349E-08  2.86485E-08
+  3.82366E-06  9.86983E-06  2.34296E-07  2.17781E-04  2.11278E-05  3.09256E-07 -3.08935E-06
+ -2.36829E-05 -3.55202E-06 -9.15644E-07 -6.81089E-05  5.40989E-04 -1.18820E-06 -2.79678E-07
+  9.92842E-07  1.21545E-07  3.49124E-08  2.56669E-06 -2.28681E-05  9.86414E-07 -6.55430E-08
+  2.87073E-07  6.88060E-07  2.30017E-08  1.41794E-05 -5.01699E-06  1.39578E-07  1.38591E-06
+>SPECTRA  FREQ=1.625000E+01 ROTSPEC=0 AVGT=1860496 // 49
+  1.21442E-06  7.80909E-08 -3.29903E-08  2.42552E-06 -3.81002E-06  2.22642E-07  1.43696E-07
+  1.35634E-07  4.15381E-07 -1.88059E-08  2.08673E-06  1.53624E-06 -2.17376E-08  4.14545E-08
+  6.07629E-08  1.42672E-08  1.63591E-08  4.52482E-07 -8.94782E-07  3.96676E-08  2.86866E-08
+  2.06913E-06  8.39397E-06  1.75591E-07  1.84020E-04  4.77146E-05 -1.00033E-06 -2.09257E-06
+ -2.69723E-05 -2.38786E-06 -1.23422E-06 -3.50241E-05  6.16247E-04 -1.41693E-06 -2.87176E-06
+  1.09480E-06  7.21386E-08  4.65783E-08  1.11315E-06 -2.51899E-05  1.05205E-06  5.45646E-08
+  1.77766E-07  5.80205E-07  1.73096E-08  1.20126E-05 -3.15565E-06  4.43324E-08  1.43410E-06
+>SPECTRA  FREQ=1.375000E+01 ROTSPEC=0 AVGT=1860496 // 49
+  2.24120E-06 -1.56654E-07 -7.01003E-08 -1.21812E-06 -6.76359E-06  4.39306E-07 -1.17285E-07
+  3.49160E-07  7.60436E-07 -2.24079E-08  3.56510E-06 -4.11835E-06  2.45550E-07  1.09307E-07
+  1.19637E-07  4.41511E-08  1.40389E-08  6.61871E-07 -1.85795E-06  8.30331E-08  3.94644E-08
+  7.28476E-06  1.52712E-05  7.50782E-07  3.28136E-04 -4.77994E-05  3.84786E-06 -2.71900E-06
+ -4.95188E-05 -5.74950E-06 -2.40203E-06 -1.25317E-04  1.12172E-03 -3.59301E-06  3.71699E-06
+  1.97504E-06  1.59754E-07  8.71635E-08  3.98045E-06 -4.52515E-05  1.86708E-06 -2.72409E-07
+  4.90481E-07  1.04109E-06  5.55438E-08  2.15324E-05 -8.36828E-06  1.64911E-07  2.40255E-06
+>SPECTRA  FREQ=1.125000E+01 ROTSPEC=0 AVGT=1860496 // 49
+  8.32116E-07  4.27981E-08 -2.10823E-08  1.72548E-06 -1.91455E-06  1.28376E-07  1.13001E-07
+  1.55114E-07  3.56373E-07 -1.55135E-08  1.62371E-06  7.59090E-07  5.72870E-09  6.34287E-08
+  5.51445E-08  2.08680E-08  8.38004E-09  4.11791E-07 -5.73838E-07  2.54267E-08  2.61871E-08
+  2.75894E-06  7.06080E-06  3.32657E-07  1.53148E-04  3.23256E-05 -4.18629E-07 -9.04989E-07
+ -1.83818E-05 -2.87167E-06 -1.15625E-06 -5.10736E-05  4.16602E-04 -1.16198E-06 -2.16709E-06
+  6.99397E-07  8.31577E-08  4.08292E-08  1.57551E-06 -1.59221E-05  6.46415E-07  2.16953E-08
+  1.96286E-07  4.68295E-07  2.42335E-08  9.72701E-06 -3.70029E-06 -2.46816E-08  2.22495E-06
+>SPECTRA  FREQ=9.375000E+00 ROTSPEC=0 AVGT=1859132 // 49
+  6.35269E-07  3.64742E-08 -1.14828E-08  1.21175E-06 -1.28637E-06  8.18266E-08  9.15114E-08
+  7.25067E-08  1.87389E-07 -8.36672E-09  8.43953E-07  7.57131E-07 -1.28226E-08  3.86201E-08
+  4.63333E-08  1.21579E-08  6.20400E-09  2.30462E-07 -3.39479E-07  1.51832E-08  1.50456E-08
+  1.15798E-06  3.66662E-06  1.93375E-07  7.92933E-05  2.50025E-05 -5.61229E-07 -3.28871E-07
+ -1.41731E-05 -1.35598E-06 -1.00230E-06 -2.11621E-05  3.22368E-04 -7.23873E-07 -1.94060E-06
+  5.29087E-07  3.53809E-08  3.57657E-08  5.58000E-07 -1.20780E-05  4.77508E-07  4.89857E-08
+  7.70097E-08  2.37130E-07  1.28567E-08  4.94512E-06 -1.44771E-06 -1.03735E-07  1.82009E-06
+>SPECTRA  FREQ=8.125000E+00 ROTSPEC=0 AVGT=1860496 // 49
+  1.49023E-06 -1.58893E-07 -3.24883E-08 -1.73938E-06 -3.26943E-06  2.21144E-07 -8.12020E-08
+  2.17219E-07  3.81114E-07  8.46679E-11  1.73780E-06 -3.88338E-06  1.80241E-07  7.61795E-08
+  1.14924E-07  3.58136E-08  1.31819E-08  1.87882E-07 -9.57110E-07  4.34273E-08  1.21232E-08
+  4.71104E-06  7.39007E-06  6.77858E-07  1.55997E-04 -4.92516E-05  2.73519E-06 -6.55777E-07
+ -3.31738E-05 -3.86812E-06 -2.46610E-06 -8.80556E-05  7.50387E-04 -2.16638E-06  2.33214E-06
+  1.23219E-06  9.79430E-08  8.72661E-08  2.54640E-06 -2.80898E-05  1.09029E-06 -1.38825E-07
+  2.64218E-07  4.62495E-07  4.05259E-08  9.50417E-06 -4.88573E-06 -6.57562E-08  2.70044E-06
+>SPECTRA  FREQ=6.875000E+00 ROTSPEC=0 AVGT=1856404 // 49
+  8.32495E-07 -9.66047E-08 -1.54142E-08 -5.42623E-07 -1.70252E-06  1.19002E-07 -2.84854E-08
+  2.24951E-07  3.80981E-07 -9.32488E-10  1.81657E-06 -2.47724E-06  1.24305E-07  8.53281E-08
+  7.50854E-08  3.78319E-08  1.16897E-08  2.18369E-07 -4.81406E-07  2.27068E-08  1.28080E-08
+  4.70101E-06  7.27217E-06  7.16386E-07  1.53621E-04 -2.19967E-05  1.66143E-06 -5.02873E-07
+ -1.82741E-05 -4.19410E-06 -1.59967E-06 -9.06294E-05  4.10179E-04 -1.21922E-06  1.15680E-06
+  6.59383E-07  1.11609E-07  5.44892E-08  2.66870E-06 -1.49046E-05  5.59519E-07 -9.17369E-08
+  2.70984E-07  4.43147E-07  4.30996E-08  9.09975E-06 -5.19368E-06  1.46261E-07  5.92579E-07
+>SPECTRA  FREQ=5.625000E+00 ROTSPEC=0 AVGT=1859132 // 49
+  3.95268E-07 -8.02450E-10 -5.62754E-10  1.04392E-06 -6.61445E-07  4.46037E-08  5.67392E-08
+  1.72568E-07  2.78707E-07 -2.67066E-09  1.42850E-06 -2.47184E-07  2.98475E-08  6.38632E-08
+  4.37538E-08  3.01741E-08  1.05655E-08  2.23894E-07 -8.02888E-08  5.51565E-09  1.19869E-08
+  3.26430E-06  5.11407E-06  5.59684E-07  1.09260E-04  1.66054E-05 -4.79031E-08 -4.16038E-07
+ -8.45181E-06 -3.40617E-06 -9.33398E-07 -6.55100E-05  1.88415E-04 -4.46386E-07 -9.20442E-07
+  2.89890E-07  9.53911E-08  3.05916E-08  1.94685E-06 -6.45739E-06  2.38525E-07  1.99800E-09
+  1.87568E-07  3.04797E-07  3.31523E-08  6.23838E-06 -3.74458E-06  9.48171E-08  5.30240E-07
+>SPECTRA  FREQ=4.687500E+00 ROTSPEC=0 AVGT=1808664 // 49
+  1.71369E-07  7.51648E-09  3.03498E-09  7.07922E-07 -2.65042E-07  1.64422E-08  3.62357E-08
+  8.68669E-08  1.32577E-07 -4.19051E-12  7.27284E-07  4.94601E-08  7.35491E-09  2.90350E-08
+  2.10046E-08  1.57388E-08  6.39563E-09  9.70416E-08  3.41987E-08  2.45120E-11  4.46331E-09
+  1.56024E-06  2.32177E-06  2.91947E-07  4.96372E-05  1.24756E-05 -1.98276E-07 -2.58700E-07
+ -3.59857E-06 -1.74826E-06 -4.50336E-07 -3.18461E-05  8.00051E-05 -1.48819E-07 -6.64439E-07
+  1.19887E-07  4.94551E-08  1.46140E-08  9.48768E-07 -2.64809E-06  1.32196E-07  1.01086E-08
+  8.79429E-08  1.36396E-07  1.65952E-08  2.73596E-06 -1.78691E-06 -3.27466E-07  4.10261E-06
+>SPECTRA  FREQ=4.062500E+00 ROTSPEC=0 AVGT=1775928 // 49
+  1.78316E-07  6.69851E-09  6.14195E-09  7.94413E-07 -2.86791E-07  1.63424E-08  3.43790E-08
+  9.73852E-08  1.43075E-07  2.40462E-09  8.36364E-07  8.47591E-09  8.87915E-09  2.94786E-08
+  2.28773E-08  1.79426E-08  7.98468E-09  7.40526E-08  9.52632E-08 -1.92477E-09  2.32821E-09
+  1.70566E-06  2.41774E-06  3.39746E-07  5.16798E-05  1.38346E-05 -2.31734E-07 -3.46001E-07
+ -3.70476E-06 -1.96425E-06 -4.94318E-07 -3.50398E-05  8.23592E-05 -1.34664E-07 -5.86424E-07
+  1.20965E-07  5.54116E-08  1.58790E-08  1.04095E-06 -2.66220E-06  9.80767E-08  7.56091E-09
+  9.54897E-08  1.39866E-07  1.90868E-08  2.75508E-06 -1.94472E-06  3.06713E-08  4.22481E-07
+>SPECTRA  FREQ=3.437500E+00 ROTSPEC=0 AVGT=1759560 // 49
+  1.89827E-07  8.50441E-09  1.09564E-08  9.61519E-07 -3.10764E-07  1.63082E-08  3.70462E-08
+  1.10312E-07  1.65705E-07  5.85771E-09  1.03063E-06  2.74584E-08  9.07719E-09  3.18219E-08
+  2.48639E-08  2.09342E-08  1.05762E-08  4.49677E-08  1.92758E-07 -4.85067E-09 -4.83992E-10
+  1.84237E-06  2.66305E-06  4.04233E-07  5.63225E-05  1.70312E-05 -3.03804E-07 -4.95371E-07
+ -3.87798E-06 -2.21994E-06 -5.41329E-07 -3.77897E-05  8.61410E-05 -1.16811E-07 -6.28465E-07
+  1.23511E-07  6.12131E-08  1.70721E-08  1.10377E-06 -2.71268E-06  1.02108E-07  7.71725E-09
+  1.04241E-07  1.54456E-07  2.23262E-08  2.94918E-06 -2.11352E-06  5.12113E-08  2.61134E-07
+>SPECTRA  FREQ=2.812500E+00 ROTSPEC=0 AVGT=1766380 // 49
+  2.37894E-07  1.38773E-08  2.06763E-08  1.30730E-06 -4.24406E-07  1.64868E-08  4.69376E-08
+  1.32896E-07  1.96174E-07  1.10306E-08  1.32704E-06  1.05532E-07  6.88351E-09  3.37123E-08
+  2.96898E-08  2.56361E-08  1.52113E-08  1.93936E-08  3.89589E-07 -1.10188E-08 -5.28147E-09
+  2.03795E-06  2.94100E-06  5.07063E-07  6.17031E-05  2.38188E-05 -4.88937E-07 -7.50207E-07
+ -4.81007E-06 -2.69201E-06 -6.63385E-07 -4.23192E-05  1.07341E-04 -3.63033E-08 -8.28707E-07
+  1.50026E-07  7.29881E-08  2.03410E-08  1.20660E-06 -3.29915E-06  2.36628E-07  1.35735E-08
+  1.20917E-07  1.69126E-07  2.80285E-08  3.09243E-06 -2.47715E-06 -1.06363E-06  1.19458E-05
+>SPECTRA  FREQ=2.343750E+00 ROTSPEC=0 AVGT=1666808 // 49
+  1.54308E-07  9.68224E-09  1.79079E-08  8.90984E-07 -3.22240E-07  9.55498E-09  2.94306E-08
+  8.67625E-08  1.26184E-07  1.06348E-08  9.01812E-07  6.31655E-08  3.71658E-09  2.54033E-08
+  1.80592E-08  1.61548E-08  1.11515E-08 -2.88492E-08  3.44713E-07 -1.00930E-08 -5.35457E-09
+  1.22541E-06  1.76169E-06  3.34546E-07  3.64805E-05  1.62731E-05 -3.51203E-07 -4.31323E-07
+ -3.10608E-06 -1.75849E-06 -4.14770E-07 -2.57767E-05  6.95361E-05  3.04499E-08 -4.87400E-07
+  9.47850E-08  4.60179E-08  1.24403E-08  7.05146E-07 -2.08693E-06  1.26730E-07  6.25095E-09
+  7.54378E-08  1.08002E-07  1.62308E-08  1.91416E-06 -1.51930E-06 -4.11398E-07  4.81107E-06
+>SPECTRA  FREQ=2.031250E+00 ROTSPEC=0 AVGT=1692724 // 49
+  1.88197E-07  1.19150E-08  2.54298E-08  1.08094E-06 -4.24149E-07  9.81716E-09  3.25036E-08
+  1.02372E-07  1.48983E-07  1.55428E-08  1.10610E-06  8.20803E-08  4.45631E-09  1.54369E-08
+  1.89101E-08  1.81423E-08  1.50669E-08 -7.04146E-08  4.96370E-07 -1.46801E-08 -9.75555E-09
+  1.32875E-06  1.95522E-06  3.90952E-07  4.00829E-05  1.99821E-05 -4.17852E-07 -7.55410E-07
+ -3.74312E-06 -2.08376E-06 -4.57256E-07 -2.82027E-05  8.39408E-05  1.03081E-07 -5.68622E-07
+  1.13663E-07  5.33331E-08  1.33087E-08  7.56957E-07 -2.49659E-06  1.57756E-07  8.84463E-09
+  7.50820E-08  1.17584E-07  1.72192E-08  1.87304E-06 -1.57427E-06 -6.13138E-07  6.89312E-06
+>SPECTRA  FREQ=1.718750E+00 ROTSPEC=0 AVGT=1752740 // 49
+  2.21907E-07  9.97648E-09  3.60069E-08  1.22696E-06 -5.86594E-07  8.60172E-09  2.82151E-08
+  1.18351E-07  1.72625E-07  2.36242E-08  1.31997E-06 -9.60613E-09  6.36847E-09  1.93459E-08
+  1.79163E-08  1.81777E-08  2.16149E-08 -1.51045E-07  7.05909E-07 -2.02519E-08 -2.20223E-08
+  1.41230E-06  2.05876E-06  4.42094E-07  4.19927E-05  2.24105E-05 -4.51091E-07 -9.72095E-07
+ -4.35563E-06 -2.38994E-06 -4.69548E-07 -3.01212E-05  9.79621E-05  2.27365E-07 -3.44028E-07
+  1.28246E-07  5.66732E-08  1.19679E-08  7.43384E-07 -2.80012E-06  2.01906E-07  1.90721E-09
+  1.04642E-07  1.42992E-07  2.13405E-08  2.13353E-06 -2.11550E-06 -6.96379E-07  7.92196E-06
+>SPECTRA  FREQ=1.406250E+00 ROTSPEC=0 AVGT=1769108 // 49
+  2.86638E-07  1.14123E-08  5.38600E-08  1.50006E-06 -9.27550E-07  6.04986E-09  2.41891E-08
+  1.47930E-07  2.18434E-07  3.66726E-08  1.67523E-06 -1.10262E-07  5.95592E-09  1.73413E-08
+  1.47012E-08  1.79145E-08  3.25093E-08 -2.66845E-07  1.08620E-06 -3.25014E-08 -2.41154E-08
+  1.53411E-06  2.29268E-06  5.26914E-07  4.60009E-05  2.70605E-05 -5.78841E-07 -1.29640E-06
+ -5.55066E-06 -2.99364E-06 -4.80420E-07 -3.37967E-05  1.25058E-04  5.39312E-07 -3.27563E-07
+  1.65780E-07  7.03162E-08  9.57759E-09  7.75247E-07 -3.58291E-06  2.46941E-07  3.16218E-09
+  1.12692E-07  1.65900E-07  2.05598E-08  2.21616E-06 -2.27273E-06 -3.92185E-07  4.82049E-06
+>SPECTRA  FREQ=1.171875E+00 ROTSPEC=0 AVGT=1651956 // 49
+  1.86528E-07  1.26526E-08  4.03918E-08  9.87355E-07 -7.55497E-07 -3.34114E-09  4.63319E-08
+  9.04922E-08  1.37122E-07  2.65811E-08  1.07723E-06 -3.59030E-09 -2.38506E-09  1.10894E-08
+  2.46827E-09  8.81835E-09  2.39611E-08 -1.90264E-07  8.38522E-07 -2.41980E-08 -2.09455E-08
+  7.42219E-07  1.25188E-06  3.32078E-07  2.51538E-05  1.83528E-05 -4.31093E-07 -8.27417E-07
+ -3.60892E-06 -1.88070E-06 -2.18338E-07 -1.76572E-05  8.17804E-05  6.01600E-07 -8.27831E-07
+  1.08927E-07  4.26652E-08 -1.67270E-10  3.46122E-07 -2.28193E-06  2.87421E-07  2.53123E-08
+  7.01945E-08  1.00070E-07  1.83839E-08  1.14570E-06 -1.72744E-06 -1.33215E-06  1.43059E-05
+>SPECTRA  FREQ=1.015625E+00 ROTSPEC=0 AVGT=1694209 // 49
+  2.22152E-07  6.99559E-09  4.91554E-08  1.00208E-06 -1.03257E-06 -5.02581E-09  2.17345E-08
+  1.03024E-07  1.57162E-07  3.30957E-08  1.19501E-06 -2.18313E-07  6.60382E-10  1.43184E-08
+ -3.51324E-09  4.94254E-09  3.08086E-08 -2.53903E-07  1.03773E-06 -2.91122E-08 -3.03057E-08
+  7.84993E-07  1.28394E-06  3.37766E-07  2.56118E-05  1.77056E-05 -4.01774E-07 -8.02063E-07
+ -4.21279E-06 -2.07998E-06 -1.61428E-07 -1.86303E-05  9.52309E-05  8.31595E-07 -2.24479E-07
+  1.30690E-07  4.48158E-08 -3.82275E-09  3.19284E-07 -2.70545E-06  3.03644E-07  3.29140E-09
+  7.61095E-08  1.14744E-07  9.20047E-09  1.30281E-06 -1.58245E-06 -1.83543E-06  1.95317E-05
+>SPECTRA  FREQ=8.593750E-01 ROTSPEC=0 AVGT=1736462 // 49
+  3.42564E-07  2.89495E-08  8.09613E-08  1.40619E-06 -1.89931E-06 -2.09420E-08  2.77611E-08
+  1.32693E-07  2.03160E-07  4.82640E-08  1.54174E-06  5.13820E-08 -1.68955E-08  4.38270E-09
+ -2.26808E-08  4.37152E-09  4.69054E-08 -3.00756E-07  1.79181E-06 -4.91991E-08 -2.98137E-08
+  5.68694E-07  1.42499E-06  4.77553E-07  2.87013E-05  2.67339E-05 -5.83463E-07 -1.47195E-06
+ -6.47313E-06 -2.76723E-06  6.62085E-09 -1.65741E-05  1.46842E-04  1.79646E-06 -2.51502E-07
+  2.14584E-07  5.47080E-08 -2.16372E-08  8.02738E-08 -4.27001E-06  5.62720E-07  1.82490E-09
+  7.11404E-08  1.51732E-07  1.10266E-08  1.35150E-06 -1.62320E-06 -3.29796E-06  3.47307E-05
+>SPECTRA  FREQ=7.031250E-01 ROTSPEC=0 AVGT=1733736 // 49
+  7.66907E-07  1.93704E-08  1.76960E-07  1.76771E-06 -5.27834E-06 -6.11976E-08  1.22449E-08
+  2.06708E-07  2.54826E-07  7.05496E-08  1.79332E-06 -7.30535E-07 -1.72232E-08 -5.81945E-09
+ -9.22692E-08 -1.38662E-08  9.09592E-08 -4.38111E-07  4.12875E-06 -1.13567E-07 -6.54590E-08
+  5.71897E-07  1.41607E-06  5.65770E-07  2.88810E-05  3.27226E-05 -8.13500E-07 -1.77244E-06
+ -1.42483E-05 -4.09108E-06  5.65936E-07 -1.97691E-05  3.20034E-04  5.17848E-06  3.57905E-07
+  5.31570E-07  1.00140E-07 -8.34561E-08  4.02628E-09 -9.92743E-06  8.44711E-07 -5.96423E-09
+  1.34618E-07  2.12867E-07  9.83658E-10  1.44999E-06 -2.62107E-06 -4.04239E-06  4.26157E-05
+>SPECTRA  FREQ=5.859375E-01 ROTSPEC=0 AVGT=1407979 // 49
+  5.56728E-07 -1.66777E-08  1.23200E-07  7.82566E-07 -4.28811E-06 -4.62268E-08  1.36272E-09
+  1.34128E-07  1.62718E-07  4.21090E-08  1.01438E-06 -1.11482E-06  1.48448E-08 -2.01722E-08
+ -8.59914E-08 -2.32086E-08  6.77031E-08 -2.96891E-07  2.93792E-06 -8.48021E-08 -1.48264E-08
+  4.09450E-07  7.54983E-07  2.37419E-07  1.43121E-05  1.25106E-05 -2.96506E-07 -9.92300E-07
+ -9.71855E-06 -2.29187E-06  6.10963E-07 -1.15065E-05  2.14159E-04  4.23948E-06  2.20344E-07
+  4.12801E-07  7.20587E-08 -7.58720E-08  1.46100E-07 -7.10604E-06  1.09276E-06 -1.44498E-08
+  3.93833E-08  1.20050E-07 -1.69989E-08  5.04085E-07 -1.28620E-06 -4.89822E-06  5.14729E-05
+>SPECTRA  FREQ=5.078125E-01 ROTSPEC=0 AVGT=1420246 // 49
+  6.52922E-07  1.22605E-08  1.44603E-07  1.09098E-06 -5.36473E-06 -7.41033E-08  8.29849E-08
+  1.66339E-07  2.12155E-07  6.22439E-08  1.31516E-06 -9.24878E-07 -1.54385E-08 -1.41496E-08
+ -1.22594E-07 -3.07297E-08  9.41188E-08 -3.75944E-07  3.56999E-06 -8.97260E-08 -5.47417E-08
+  1.61353E-07  8.21898E-07  3.81647E-07  1.66025E-05  1.96734E-05 -4.60455E-07 -1.42629E-06
+ -1.07846E-05 -3.05662E-06  9.29936E-07 -1.01518E-05  2.35810E-04  5.51404E-06 -1.08026E-06
+  4.80207E-07  8.38718E-08 -1.12376E-07 -1.74850E-07 -7.64674E-06  6.82705E-07  8.26802E-08
+  7.58122E-08  1.84045E-07  2.63852E-08  1.04949E-06 -1.94024E-06 -2.68641E-06  2.80702E-05
+>SPECTRA  FREQ=4.296875E-01 ROTSPEC=0 AVGT=1282583 // 49
+  7.51256E-07  3.87878E-08  1.48755E-07  1.16276E-06 -6.43275E-06 -1.01043E-07  6.83252E-08
+  1.78037E-07  2.65887E-07  7.50278E-08  1.60330E-06 -5.90787E-07 -4.20441E-08  2.28232E-08
+ -1.70748E-07 -3.94143E-08  1.25213E-07 -4.12810E-07  3.97121E-06 -8.66903E-08 -5.39305E-08
+ -1.46368E-07  8.79014E-07  4.71718E-07  1.82336E-05  2.31526E-05 -4.37027E-07 -1.28269E-06
+ -1.14776E-05 -3.36194E-06  1.49071E-06 -5.79017E-06  2.47167E-04  6.89075E-06 -9.00052E-07
+  5.69136E-07  8.02551E-08 -1.50896E-07 -4.87811E-07 -8.26488E-06  1.29578E-06  3.01401E-08
+  3.32595E-08  1.76508E-07 -3.77820E-08  1.13716E-06 -1.03098E-06 -2.16564E-06  2.28335E-05
+>SPECTRA  FREQ=3.515625E-01 ROTSPEC=0 AVGT=1185810 // 49
+  1.04894E-06  5.45919E-08  1.89539E-07  1.31104E-06 -9.41874E-06 -1.44686E-07  7.32687E-08
+  2.40138E-07  3.65644E-07  9.99251E-08  1.86671E-06 -9.66696E-07 -6.03159E-08 -5.36595E-08
+ -2.66201E-07 -6.78769E-08  1.86565E-07 -5.19736E-07  5.31546E-06 -1.05637E-07 -5.84439E-08
+ -3.42676E-07  8.92150E-07  5.32286E-07  1.80640E-05  2.60066E-05 -4.45916E-07 -1.84449E-06
+ -1.44862E-05 -4.32941E-06  2.20392E-06 -5.43018E-06  3.07061E-04  9.97511E-06  9.85185E-08
+  8.14903E-07  1.12313E-07 -2.42896E-07 -6.23501E-07 -1.04575E-05  1.14478E-06  5.67628E-08
+  1.08164E-07  2.36244E-07 -1.49382E-08  4.69596E-07 -2.69739E-06 -3.68954E-06  3.91438E-05
+>SPECTRA  FREQ=2.929688E-01 ROTSPEC=0 AVGT=913902 // 49
+  4.10756E-07  3.06788E-08  6.24865E-08  6.21039E-07 -3.48953E-06 -4.73501E-08 -6.08226E-08
+  1.24718E-07  2.34245E-07  5.43902E-08  1.05968E-06 -4.92562E-07 -3.98496E-08 -2.49051E-09
+ -1.13452E-07 -4.22553E-08  1.02031E-07 -3.06147E-07  1.92991E-06 -2.85176E-08 -8.80359E-09
+ -7.89767E-08  4.95858E-07  2.28737E-07  8.95289E-06  1.14274E-05 -2.11686E-07 -1.02116E-06
+ -4.88768E-06 -2.25093E-06  9.83715E-07 -4.28898E-06  1.00782E-04  3.58550E-06  1.02462E-06
+  3.00127E-07  4.89954E-08 -9.75939E-08 -2.76360E-07 -3.44726E-06  7.51229E-07 -4.32137E-08
+  8.29769E-08  1.83466E-07 -4.99737E-08  5.26727E-07 -7.07837E-07 -3.83483E-06  4.04653E-05
+>SPECTRA  FREQ=2.539063E-01 ROTSPEC=0 AVGT=625158 // 49
+  5.34497E-07  5.52476E-08  6.91253E-08  5.55482E-07 -4.61838E-06 -1.02104E-07  1.93393E-07
+  1.32272E-07  3.08193E-07  7.44732E-08  1.27205E-06 -2.99003E-07 -8.56295E-08  1.77995E-07
+ -1.56892E-07 -5.45584E-08  1.51179E-07 -3.51789E-07  2.37505E-06 -2.53536E-08  1.85174E-08
+ -2.68158E-07  5.49247E-07  2.97096E-07  9.58385E-06  1.19828E-05 -1.30959E-07 -1.15239E-06
+ -5.64426E-06 -2.47553E-06  1.34177E-06 -1.75527E-06  1.15360E-04  5.24227E-06 -3.16692E-06
+  4.06340E-07  2.70059E-08 -1.60645E-07 -6.14477E-07 -3.82555E-06  3.31224E-06  1.10674E-07
+ -5.70331E-08  3.32324E-07  9.65212E-08  1.74522E-06 -5.79469E-07 -1.46138E-05  1.51371E-04
+>SPECTRA  FREQ=2.148438E-01 ROTSPEC=0 AVGT=652398 // 49
+  2.09578E-06  2.33706E-07  1.81892E-07  6.08896E-07 -1.92305E-05 -2.44093E-07 -1.92256E-07
+  2.52916E-07  4.80218E-07  1.59373E-07  1.80046E-06  3.37854E-07 -2.55451E-07  9.06290E-08
+ -6.58868E-07 -1.07153E-07  3.77065E-07 -3.48416E-07  8.29170E-06 -6.46863E-08 -4.67135E-08
+ -1.72258E-06  5.46959E-07  8.00941E-07  1.18394E-05  2.62925E-05  1.21359E-07 -8.82992E-07
+ -2.05005E-05 -5.47806E-06  5.10468E-06  1.20284E-05  3.97388E-04  2.05094E-05  1.38549E-06
+  1.87106E-06  9.77225E-08 -6.12800E-07 -1.92806E-06 -1.63378E-05  3.18676E-06 -7.08797E-08
+ -3.41250E-08  2.76129E-07 -1.20011E-07  1.03471E-06 -4.98472E-08 -1.22461E-05  1.27143E-04
+>SPECTRA  FREQ=1.757813E-01 ROTSPEC=0 AVGT=250608 // 49
+  6.89852E-06  2.54494E-07  6.75687E-07  1.11938E-06 -6.23828E-05 -6.56222E-07 -4.09959E-08
+  1.06398E-06  9.82317E-07  2.76159E-07  2.57161E-06 -7.11734E-06 -3.46348E-07 -1.69076E-07
+ -2.14340E-06 -4.18223E-07  9.52923E-07 -5.50290E-07  2.57852E-05 -4.03528E-07  1.06282E-08
+ -3.19818E-06  5.80062E-07  1.27149E-06  1.29959E-05  4.37661E-05 -1.83140E-07 -2.03957E-06
+ -5.96073E-05 -1.28819E-05  1.29458E-05  1.74001E-05  1.10366E-03  6.51364E-05  9.58603E-07
+  6.42954E-06  8.29411E-07 -2.09533E-06 -3.45201E-06 -5.02505E-05  6.86858E-06  5.16333E-09
+  8.11660E-08  5.60046E-07 -1.29103E-07  4.96401E-07 -8.80353E-07 -1.36173E-06  1.35403E-05
+>SPECTRA  FREQ=1.464844E-01 ROTSPEC=0 AVGT=461379 // 49
+  2.73384E-06  2.29963E-07  2.17319E-07  1.60744E-06 -2.31746E-05 -3.23978E-07  1.37543E-07
+  7.49896E-07  9.63602E-07  2.29469E-07  2.64047E-06 -4.54711E-06 -2.79661E-07 -5.07239E-08
+ -9.58217E-07 -3.61494E-07  5.37480E-07 -9.37789E-07  1.02606E-05 -5.10858E-08 -1.79223E-07
+ -9.76001E-07  5.60379E-07  6.39093E-07  1.01018E-05  2.55965E-05 -6.69053E-07 -2.44311E-06
+ -2.05221E-05 -9.13528E-06  5.84376E-06 -6.98563E-06  3.67785E-04  2.37643E-05  2.83547E-06
+  2.41021E-06  4.58394E-07 -8.74196E-07 -1.24597E-06 -1.54406E-05  2.44057E-06  1.67318E-07
+  4.64886E-07  7.66554E-07 -2.54622E-07  4.12547E-07 -6.09333E-06  1.78704E-07  1.19170E-06
+>SPECTRA  FREQ=1.269531E-01 ROTSPEC=0 AVGT=684583 // 49
+  3.37011E-06  4.74378E-07  1.52807E-07  1.04374E-06 -2.74437E-05 -4.29294E-07  4.20569E-07
+  6.98319E-07  1.79339E-06  3.85298E-07  4.97483E-06 -2.63588E-06 -5.15923E-07 -1.61516E-07
+ -1.18621E-06 -5.00201E-07  7.04292E-07 -1.27679E-06  1.13214E-05  6.65554E-08 -2.38822E-07
+ -1.97895E-06  8.54339E-07  1.16109E-06  1.79409E-05  3.18026E-05  8.78396E-07 -5.51969E-06
+ -2.15710E-05 -1.13015E-05  7.12082E-06  2.76080E-06  3.83439E-04  2.83789E-05  5.12485E-06
+  3.00581E-06  7.97744E-08 -1.02960E-06 -2.24685E-06 -1.54592E-05  3.66846E-06  3.91163E-07
+  8.56428E-07  1.87166E-06 -5.81240E-07 -3.49783E-07 -1.19220E-05 -4.53508E-06  5.08785E-05
+>SPECTRA  FREQ=1.074219E-01 ROTSPEC=0 AVGT=662807 // 49
+  1.88356E-05  2.65903E-06 -1.46751E-07 -7.29626E-06 -1.48154E-04 -1.98964E-06  2.28497E-06
+ -8.66121E-08  3.24215E-06  1.20905E-06  8.94980E-06  1.37432E-05 -2.76139E-06  3.21614E-07
+ -5.92781E-06 -5.21391E-07  2.33091E-06  5.83656E-07  4.72100E-05  9.09443E-07 -1.13886E-06
+ -1.23349E-05  7.59669E-07  4.63225E-06  3.33333E-05  7.47735E-05  1.11551E-05 -9.58057E-06
+ -9.50200E-05 -2.59193E-05  3.24040E-05  1.15808E-04  1.67581E-03  1.63107E-04 -3.07826E-05
+  1.92501E-05 -1.24273E-06 -5.95245E-06 -1.25686E-05 -8.05788E-05  2.06635E-05  2.10552E-06
+ -2.46839E-06  2.97836E-06  2.68229E-07  2.44338E-06 -1.08223E-05 -3.95526E-06  6.14401E-06
+>SPECTRA  FREQ=8.789063E-02 ROTSPEC=0 AVGT=677778 // 49
+  2.83329E-05  1.27291E-06 -3.19414E-07 -1.35629E-05 -1.94337E-04 -1.45295E-06 -1.38610E-06
+ -1.26361E-06  6.23863E-06  1.21970E-06  1.40004E-05  1.17772E-05 -1.08755E-06 -3.11419E-06
+ -8.38008E-06 -8.82909E-07  3.33942E-06  8.12209E-07  5.88712E-05  1.01728E-06  2.51998E-07
+ -8.99408E-06  2.17564E-06  4.17231E-06  4.19025E-05  3.06828E-05  1.93863E-05 -1.58426E-05
+ -1.13719E-04 -1.44043E-05  3.82677E-05  1.21167E-04  1.83328E-03  2.11044E-04 -1.05055E-05
+  2.97783E-05 -3.44290E-06 -8.40580E-06 -9.34766E-06 -1.06132E-04  5.09437E-05 -1.01522E-06
+ -3.90094E-06  5.79544E-06 -7.73228E-07 -2.23522E-06  6.78396E-06 -1.95027E-04  1.97868E-03
+>SPECTRA  FREQ=7.324219E-02 ROTSPEC=0 AVGT=607355 // 49
+  5.37250E-05  4.57004E-06 -2.50978E-06 -3.84927E-05 -3.34790E-04 -2.33457E-06  4.23375E-06
+ -1.06585E-05  1.52694E-05  3.30699E-06  3.32842E-05  7.34183E-05 -4.47489E-06 -2.36964E-06
+ -1.40214E-05 -2.25433E-07  4.96342E-06  3.49462E-06  8.42196E-05  3.97985E-06 -3.10446E-06
+ -1.84441E-05  3.19604E-06  9.07044E-06  8.23665E-05  3.85343E-05  5.11921E-05 -3.85193E-05
+ -1.58526E-04 -1.70631E-05  6.09227E-05  2.78246E-04  2.60224E-03  3.73724E-04 -7.32831E-05
+  5.89870E-05 -1.61279E-05 -1.44194E-05 -1.93799E-05 -1.53684E-04  7.04441E-05  5.86210E-07
+ -1.15629E-05  1.73059E-05 -9.38172E-07 -4.51963E-07 -1.34580E-05 -2.59773E-05  8.43728E-05
+>SPECTRA  FREQ=6.347656E-02 ROTSPEC=0 AVGT=694120 // 49
+  5.66349E-05 -4.52616E-06  4.25786E-07 -1.52865E-05 -3.18154E-04  7.17578E-07 -5.63521E-06
+  2.45601E-06  2.18263E-05  1.15281E-06  3.41789E-05 -3.81695E-05  4.24491E-06 -8.00174E-07
+ -1.62380E-05 -5.64151E-06  6.63043E-06 -4.10628E-06  9.94481E-05  1.64305E-07 -4.46228E-07
+  1.52313E-06  4.80438E-06  2.73152E-06  6.49960E-05 -1.68948E-06  2.75087E-05 -4.19896E-05
+ -1.58865E-04 -1.28616E-05  4.94806E-05  5.82572E-05  2.30353E-03  3.22464E-04  1.27324E-05
+  5.78387E-05 -4.61909E-06 -1.50135E-05 -6.48484E-07 -1.57316E-04  8.93841E-05 -2.27016E-05
+ -2.34881E-06  2.49295E-05 -6.01462E-06  6.07779E-06  1.11437E-05 -2.45435E-04  2.35677E-03
+>SPECTRA  FREQ=5.371094E-02 ROTSPEC=0 AVGT=754985 // 49
+  1.02987E-04 -1.63779E-05  2.89366E-06 -1.69519E-05 -5.04904E-04  5.74731E-06 -2.63629E-05
+  9.73529E-06  7.89875E-05  3.40979E-06  1.06422E-04 -1.38731E-04  1.54918E-05 -2.89143E-06
+ -2.92714E-05 -2.24132E-05  1.49588E-05 -2.33524E-05  1.74298E-04 -1.94111E-06 -2.40203E-08
+  1.56509E-05  1.11799E-05  4.18280E-06  1.58260E-04  1.17900E-05  5.01485E-05 -1.14297E-04
+ -2.59247E-04 -4.05245E-05  7.91720E-05 -3.46005E-05  3.30275E-03  4.77636E-04  1.23291E-04
+  1.02699E-04 -1.42944E-05 -2.34183E-05  1.05896E-05 -2.56699E-04  1.17459E-04 -3.30912E-05
+  8.17337E-07  8.28803E-05 -2.16935E-05  1.06230E-05  2.66969E-05 -4.31141E-05  2.11008E-04
+>SPECTRA  FREQ=4.394531E-02 ROTSPEC=0 AVGT=718725 // 49
+  4.04926E-04  1.18473E-05 -1.28329E-05 -5.57627E-05 -1.82229E-03  3.79682E-06 -1.48963E-05
+  3.65741E-05  2.68627E-04  2.71879E-05  3.02419E-04 -3.23959E-04 -1.90736E-05 -6.25478E-06
+ -1.18764E-04 -8.17957E-05  5.78635E-05 -6.75190E-05  5.88319E-04  2.14812E-05 -2.13680E-05
+ -3.44586E-05  5.85214E-06  3.80642E-05  3.69031E-04  3.87940E-04  1.50973E-04 -3.31212E-04
+ -7.38059E-04 -4.14779E-04  3.36380E-04  9.23917E-05  1.00243E-02  1.76495E-03  2.86269E-04
+  4.03695E-04 -4.61307E-05 -9.73355E-05 -4.69757E-05 -6.56746E-04  4.30936E-04 -5.50317E-06
+  1.26135E-05  2.88962E-04 -8.12065E-05  7.06394E-06 -2.75286E-04 -8.17709E-05  3.60160E-04
+>SPECTRA  FREQ=3.662109E-02 ROTSPEC=0 AVGT=167640 // 49
+  3.53618E-04  1.96869E-05 -8.52915E-06  1.44118E-05 -1.43718E-03  3.00821E-06  6.83800E-06
+  9.29500E-05  3.31481E-04  3.36226E-05  2.97948E-04 -5.56779E-04 -2.36431E-05 -6.95144E-06
+ -1.18107E-04 -1.17559E-04  6.79917E-05 -8.82072E-05  5.54536E-04  1.73832E-05 -2.98690E-05
+ -3.33682E-05 -7.39430E-06  3.86720E-05  2.88482E-04  4.38015E-04  7.53773E-05 -3.31972E-04
+ -5.61026E-04 -5.20553E-04  2.84954E-04 -2.07681E-04  7.17182E-03  1.28230E-03  5.33115E-04
+  3.30403E-04 -5.96612E-06 -8.47717E-05 -3.70672E-05 -4.43662E-04  3.48194E-04  1.49211E-05
+  7.46956E-05  3.63466E-04 -1.22788E-04 -1.03588E-05 -4.77073E-04 -1.32936E-04  1.42651E-03
+>SPECTRA  FREQ=3.173828E-02 ROTSPEC=0 AVGT=150480 // 49
+  1.19610E-03 -6.11355E-06  1.07762E-06  1.81816E-04 -4.42277E-03  2.56846E-05 -7.83311E-05
+  4.83604E-04  6.53051E-04  3.71436E-05  4.54759E-04 -2.10357E-03  1.97703E-06 -3.58005E-05
+ -4.42376E-04 -3.09354E-04  2.05961E-04 -1.76039E-04  1.75943E-03  5.60148E-06 -1.28610E-05
+ -3.95340E-05 -1.90722E-05  4.79915E-05  3.49758E-04  7.48678E-04 -4.36674E-05 -4.84279E-04
+ -1.78285E-03 -1.09340E-03  7.42641E-04 -8.66671E-04  1.95766E-02  3.79857E-03  2.14250E-03
+  1.05904E-03  2.86907E-04 -3.52665E-04 -4.21803E-05 -1.54330E-03  9.85871E-04 -6.23510E-05
+  4.55770E-04  6.85188E-04 -3.12259E-04 -3.40561E-05 -8.17794E-04  2.43681E-04  7.62729E-04
+>SPECTRA  FREQ=2.685547E-02 ROTSPEC=0 AVGT=133980 // 49
+  2.31758E-03 -2.89588E-06 -3.17610E-05  8.30925E-05 -7.39489E-03  7.00228E-05 -1.32892E-04
+  6.39577E-04  1.04524E-03  5.82092E-05  6.25582E-04 -2.59068E-03 -5.57066E-06 -3.91763E-05
+ -7.58245E-04 -4.60806E-04  3.29495E-04 -2.01364E-04  2.59449E-03  3.51698E-05 -2.26026E-05
+ -5.34404E-05 -3.29043E-05  6.88135E-05  4.33753E-04  7.22599E-04  1.07789E-04 -6.80048E-04
+ -2.59832E-03 -1.35268E-03  1.09637E-03 -5.73820E-04  2.73555E-02  6.58620E-03  2.56792E-03
+  2.13321E-03  3.22895E-04 -6.24449E-04 -6.01159E-05 -2.40199E-03  2.05441E-03 -1.08713E-04
+  5.69004E-04  1.11140E-03 -4.61394E-04 -4.01088E-05 -9.21162E-04  2.27512E-04  1.20373E-03
+>SPECTRA  FREQ=2.197266E-02 ROTSPEC=0 AVGT=114180 // 49
+  2.63105E-03 -1.54773E-04  8.76756E-06  1.02979E-04 -7.05453E-03  1.18088E-04 -3.00164E-04
+  7.76515E-04  1.20789E-03  1.20896E-05  5.76383E-04 -2.79661E-03  1.50385E-04 -3.10983E-05
+ -8.48511E-04 -5.41084E-04  3.69166E-04 -1.94466E-04  2.49196E-03 -2.06762E-05  2.55418E-05
+  3.79151E-05 -2.09922E-05  2.97148E-05  3.22125E-04  3.41215E-04  7.29919E-05 -6.28989E-04
+ -2.43353E-03 -8.93538E-04  9.04976E-04 -6.17372E-04  2.18965E-02  6.12966E-03  2.81032E-03
+  2.38251E-03  4.06955E-04 -6.83018E-04  3.28711E-05 -2.33007E-03  2.25637E-03 -2.81920E-04
+  7.14773E-04  1.28571E-03 -5.47421E-04 -2.14629E-05 -5.10425E-04  3.13409E-04  1.42013E-03
+>SPECTRA  FREQ=1.831055E-02 ROTSPEC=0 AVGT=35752 // 49
+  2.59066E-03 -3.73450E-04  7.28026E-05  7.17494E-05 -5.83510E-03  1.97224E-04 -4.78776E-04
+  7.06502E-04  8.42230E-04 -6.33145E-05  3.18906E-04 -2.21338E-03  3.61439E-04  4.36880E-05
+ -8.06461E-04 -4.10908E-04  3.12594E-04 -1.10270E-04  1.99359E-03 -1.09974E-04  8.09599E-05
+  1.29521E-04  3.16423E-06 -1.60454E-05  1.44692E-04 -6.75469E-05  2.67477E-05 -3.57859E-04
+ -2.02737E-03 -4.26726E-05  5.49351E-04 -4.07074E-04  1.51140E-02  5.00921E-03  2.27838E-03
+  2.32480E-03  4.36661E-04 -6.66689E-04  1.12573E-04 -2.15749E-03  2.31043E-03 -6.84308E-04
+  7.03046E-04  9.26043E-04 -4.56254E-04  5.81345E-05  1.45667E-04 -1.49249E-03  2.45787E-02
+>SPECTRA  FREQ=1.586914E-02 ROTSPEC=0 AVGT=26896 // 49
+  2.60763E-03 -4.58087E-04  1.16352E-04  1.26842E-04 -5.22803E-03  2.08695E-04 -5.24061E-04
+  9.33012E-04  1.14341E-03 -6.78691E-05  3.63146E-04 -2.55412E-03  4.68991E-04 -1.37173E-04
+ -8.49943E-04 -5.39036E-04  3.53115E-04 -1.31968E-04  1.91416E-03 -1.47094E-04  7.33017E-05
+  1.50517E-04  4.42523E-06 -2.01900E-05  1.38506E-04 -5.16378E-05 -6.34806E-06 -4.54071E-04
+ -1.89994E-03 -1.23007E-04  4.74428E-04 -4.91203E-04  1.22334E-02  4.28953E-03  2.58714E-03
+  2.26288E-03  5.50448E-04 -6.78696E-04  1.45092E-04 -1.95251E-03  2.72000E-03 -1.59151E-03
+  8.71696E-04  1.35212E-03 -4.46791E-04 -2.18897E-05 -3.34974E-05 -5.37878E-03  5.46799E-02
+>SPECTRA  FREQ=1.342773E-02 ROTSPEC=0 AVGT=21976 // 49
+  5.13131E-03 -2.15550E-03  5.96276E-04  2.50695E-04 -8.39228E-03  7.61548E-04 -2.54898E-03
+  1.72175E-03  2.93033E-03 -4.12676E-04  8.62608E-04 -5.01278E-03  2.08419E-03 -2.55714E-04
+ -1.57497E-03 -1.21461E-03  6.92477E-04 -3.03508E-04  3.22260E-03 -7.25722E-04  5.89643E-04
+  6.80846E-04  7.01349E-05 -1.46841E-04  2.77387E-04 -7.01245E-04  2.84309E-05 -9.58235E-04
+ -3.69108E-03  1.68404E-03  3.20628E-04 -1.09736E-03  1.69490E-02  6.36695E-03  6.52802E-03
+  4.33443E-03  7.20865E-04 -1.11125E-03  6.29966E-04 -4.18985E-03  4.73864E-03 -1.67350E-03
+  2.34105E-03  3.46132E-03 -1.57559E-03 -6.63225E-06  1.94089E-03 -6.16008E-03  6.89290E-02
+>SPECTRA  FREQ=1.098633E-02 ROTSPEC=0 AVGT=6232 // 49
+  1.23025E-03 -9.36051E-05  3.81255E-05  7.88518E-05 -1.85017E-03  6.24360E-05 -1.33817E-04
+  5.91226E-04  8.30327E-04 -8.46770E-06  1.75633E-04 -1.13877E-03  5.84799E-05 -8.84582E-06
+ -4.55505E-04 -3.74534E-04  2.28189E-04 -6.84526E-05  7.76083E-04 -3.59648E-05  1.54940E-05
+ -3.77663E-06 -5.70148E-06  6.37249E-06  4.73385E-05  1.02463E-04 -2.62272E-05 -1.91665E-04
+ -6.42928E-04 -3.89663E-04  2.45682E-04 -1.72336E-04  3.32238E-03  1.43869E-03  1.23836E-03
+  9.94748E-04  3.29942E-04 -3.26763E-04 -7.41935E-06 -5.37396E-04  8.70242E-04 -9.22243E-05
+  6.33330E-04  8.87391E-04 -4.04082E-04 -6.59452E-06 -3.75899E-04  3.42900E-04  9.69878E-04
+>SPECTRA  FREQ=9.155273E-03 ROTSPEC=0 AVGT=5635 // 49
+  2.13892E-03 -6.11642E-04  1.85058E-04  4.88650E-05 -2.51310E-03  2.27042E-04 -6.53321E-04
+  6.12146E-04  9.60450E-04 -9.73392E-05  1.87522E-04 -1.20352E-03  6.00187E-04 -3.30336E-05
+ -6.67502E-04 -4.21880E-04  2.93042E-04 -6.81138E-05  9.53992E-04 -2.19045E-04  1.04916E-04
+  1.15041E-04  2.06856E-05 -2.10430E-05  4.40485E-05 -5.26700E-05  1.20968E-05 -2.17759E-04
+ -9.75385E-04  1.89419E-04  1.53602E-04 -1.60750E-04  3.59732E-03  2.02783E-03  1.31282E-03
+  1.85780E-03  3.03178E-04 -5.09589E-04  1.04398E-04 -1.04334E-03  1.70544E-03 -6.23026E-04
+  6.47320E-04  1.04121E-03 -4.75595E-04  1.23974E-05  1.84659E-04  2.90620E-04  1.21206E-03
+>SPECTRA  FREQ=7.934570E-03 ROTSPEC=0 AVGT=5796 // 49
+  3.94349E-03 -5.72790E-04  1.75306E-04  2.37387E-04 -4.55471E-03  1.33727E-04  6.18006E-04
+  1.85397E-03  2.04665E-03 -8.07092E-05  3.24905E-04 -2.71258E-03  5.32627E-04  2.50136E-04
+ -1.44537E-03 -1.03199E-03  6.59360E-04 -1.51315E-04  1.86330E-03 -1.56617E-04 -4.74014E-04
+  6.93817E-05 -1.91731E-05  1.42390E-07  5.82202E-05  9.26618E-05 -1.34035E-04 -3.01683E-04
+ -1.68557E-03 -4.65390E-04  5.10753E-04 -3.61152E-04  6.20982E-03  3.49511E-03  2.46327E-03
+  3.14505E-03  1.18146E-03 -1.05627E-03  7.86516E-05 -1.39877E-03  3.14425E-03 -9.56512E-04
+  2.03865E-03  1.87524E-03 -1.06386E-03 -1.06013E-04 -1.96459E-03 -4.67835E-03  7.38684E-02
+>SPECTRA  FREQ=6.713867E-03 ROTSPEC=0 AVGT=4830 // 49
+  3.84994E-03 -2.77047E-04  7.35732E-05  2.51065E-04 -3.99769E-03  1.29065E-04 -1.61186E-04
+  2.34491E-03  2.31353E-03  2.53361E-06  2.95649E-04 -2.78938E-03  2.72986E-04  1.00885E-04
+ -1.63310E-03 -1.28957E-03  8.28297E-04 -1.52882E-04  1.83666E-03 -9.09472E-05 -7.02014E-05
+ -2.18431E-05 -5.06720E-05  3.22221E-05  4.49631E-05  1.74567E-04 -1.58716E-04 -3.17902E-04
+ -1.49835E-03 -9.16438E-04  6.36201E-04 -2.86933E-04  4.92525E-03  3.03397E-03  2.88057E-03
+  3.01784E-03  1.60922E-03 -1.19773E-03 -8.82625E-06 -1.22691E-03  2.45742E-03 -1.93183E-04
+  2.46840E-03  2.43830E-03 -1.36795E-03 -3.86669E-05 -1.12142E-03  1.67757E-03  2.62253E-03
+>SPECTRA  FREQ=5.493164E-03 ROTSPEC=0 AVGT=2737 // 49
+  5.82966E-03 -1.85651E-03  3.76959E-04  3.75381E-04 -4.64369E-03  2.81907E-04 -1.56148E-03
+  3.43854E-03  4.52941E-03 -3.51482E-04  5.68762E-04 -4.02338E-03  1.54778E-03  2.52193E-04
+ -2.40016E-03 -2.12608E-03  1.27372E-03 -2.46414E-04  2.27544E-03 -3.37160E-04  1.96075E-04
+  1.23249E-04 -7.97686E-05  6.46875E-06  8.49720E-05  1.69564E-04 -2.03068E-04 -5.76174E-04
+ -2.36723E-03 -5.48711E-04  8.28004E-04 -4.27495E-04  5.06127E-03  3.35500E-03  3.93555E-03
+  4.46792E-03  2.08327E-03 -1.68069E-03  1.09836E-04 -1.87802E-03  3.60128E-03 -1.32710E-03
+  3.48742E-03  4.51000E-03 -2.12724E-03 -5.68341E-05 -8.43988E-04  2.12326E-03  4.54446E-03
+>SPECTRA  FREQ=4.577637E-03 ROTSPEC=0 AVGT=936 // 49
+  7.37589E-03 -1.60919E-03  4.94831E-04  3.19781E-04 -5.23916E-03  5.44606E-04 -2.74441E-03
+  4.29387E-03  4.29737E-03 -3.50991E-04  3.34217E-04 -3.84685E-03  1.53720E-03 -3.39993E-04
+ -3.17400E-03 -2.32729E-03  1.56510E-03 -1.78444E-04  2.50743E-03 -5.73178E-04  5.64393E-04
+  2.63515E-05 -5.84123E-05  1.81581E-05  3.02067E-05  1.28460E-04 -1.92634E-04 -4.30698E-04
+ -2.28892E-03 -6.47559E-04  7.29280E-04 -2.64341E-04  4.66987E-03  3.72916E-03  5.53145E-03
+  5.58430E-03  2.72051E-03 -2.26601E-03  3.44310E-05 -2.00028E-03  4.80152E-03 -2.77200E-03
+  6.12723E-03  5.45028E-03 -3.05893E-03 -3.11623E-05 -2.61219E-04  8.42673E-04  3.50868E-02
+>SPECTRA  FREQ=3.967285E-03 ROTSPEC=0 AVGT=936 // 49
+  2.68775E-02  1.13533E-03 -1.24885E-03  5.28359E-04 -1.79384E-02 -1.13477E-04  3.20986E-03
+  1.08729E-02  7.38226E-03 -1.24547E-04  4.51735E-04 -7.62422E-03 -1.12971E-03  9.84471E-04
+ -1.02010E-02 -5.17386E-03  4.31800E-03 -2.85074E-04  6.74193E-03  1.12881E-03 -7.30611E-04
+ -2.74408E-04 -1.46510E-04  9.61661E-05  3.61384E-05  3.58091E-04 -3.82467E-04 -4.78724E-04
+ -5.35945E-03 -3.67181E-03  3.14197E-03 -3.32741E-04  1.33900E-02  1.48764E-02  7.08394E-03
+  2.23585E-02  8.34397E-03 -8.24908E-03 -2.21696E-04 -4.19051E-03  1.88548E-02  2.84086E-03
+  1.06857E-02  7.51578E-03 -5.26061E-03 -1.01823E-04 -5.08722E-03  8.15241E-03  7.90006E-03
+>SPECTRA  FREQ=3.356934E-03 ROTSPEC=0 AVGT=312 // 49
+  1.15110E-02 -2.51232E-03  5.28368E-04  8.66838E-04 -6.85822E-03  9.12232E-04 -1.75647E-03
+  1.07671E-02  1.36364E-02 -7.69693E-04  1.11210E-03 -7.83580E-03  2.38158E-03  8.66820E-04
+ -5.85972E-03 -6.85705E-03  3.60135E-03 -5.60296E-04  3.91924E-03 -7.41263E-04  3.35312E-04
+ -3.01995E-06 -2.54802E-04  6.86622E-05  9.95680E-05  3.69864E-04 -4.99729E-04 -1.12804E-03
+ -3.91939E-03 -2.80473E-03  1.97243E-03 -5.56840E-04  5.68940E-03  4.17656E-03  7.63333E-03
+  7.68698E-03  6.30038E-03 -3.62575E-03  6.82760E-05 -2.99655E-03  5.41668E-03 -1.93752E-03
+  1.09042E-02  1.36097E-02 -6.94493E-03 -1.82878E-04 -3.37612E-03  6.45373E-03  1.37652E-02
+>SPECTRA  FREQ=2.746582E-03 ROTSPEC=0 AVGT=468 // 49
+  2.69602E-02 -8.86526E-03  1.22864E-03  2.11268E-04 -9.50439E-03  2.30930E-03 -8.68347E-03
+  5.64671E-03  1.20716E-02 -2.04296E-03  6.25537E-04 -4.27149E-03  8.24306E-03 -9.82493E-04
+ -6.57368E-03 -4.27835E-03  2.65899E-03 -2.33525E-04  2.79654E-03 -1.72783E-03  2.03876E-03
+  4.01930E-04  4.36300E-05 -8.76111E-05  4.28727E-05 -2.43169E-05 -4.69908E-05 -6.15324E-04
+ -3.77248E-03  7.88140E-04  1.05368E-03 -1.93677E-04  4.39291E-03  7.88654E-03  2.55309E-03
+  2.38454E-02  2.51272E-03 -5.12566E-03  3.69198E-04 -3.73757E-03  2.18652E-02 -7.78576E-03
+  1.21698E-03  1.06919E-02 -3.31626E-03 -1.06262E-05  1.18873E-03 -1.59338E-03  1.08184E-02
+>SPECTRA  FREQ=2.288818E-03 ROTSPEC=0 AVGT=0 // 49
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+>SPECTRA  FREQ=1.983643E-03 ROTSPEC=0 AVGT=72 // 49
+  6.16742E-02 -1.43856E-02  4.75780E-04  8.58541E-04 -1.84821E-02  3.54854E-03 -1.58939E-02
+  3.05408E-02  2.58935E-02 -5.50052E-03  5.94687E-04 -1.24893E-02  1.25812E-02 -1.81760E-03
+ -2.53121E-02 -1.59032E-02  1.20958E-02 -4.16856E-04  8.06334E-03 -1.51915E-03  6.00673E-03
+ -2.96697E-04 -4.80957E-04  1.81791E-04  2.90065E-05  3.04690E-04 -6.39474E-04 -5.17081E-04
+ -1.07925E-02 -2.61187E-03  4.97141E-03 -2.03193E-04  7.85750E-03  1.38833E-02  1.09890E-02
+  4.86204E-02  2.16998E-02 -1.92509E-02 -1.64994E-04 -9.18621E-03  3.89169E-02 -1.35291E-02
+  2.48497E-02  2.33807E-02 -1.35186E-02 -4.75535E-04 -1.19137E-03  1.71109E-02  2.14852E-02
+>SPECTRA  FREQ=1.678467E-03 ROTSPEC=0 AVGT=36 // 49
+  1.07242E-01  8.04669E-03 -2.39873E-03  1.06240E-03 -3.70530E-02 -9.22549E-03  1.96030E-02
+  6.73902E-02  4.46438E-02  2.67832E-03  9.08752E-04 -2.28720E-02 -1.23320E-02  8.87218E-03
+ -4.90940E-02 -3.14134E-02  2.27639E-02 -5.62074E-04  1.69019E-02  6.35203E-03 -8.49748E-03
+ -2.78269E-03 -1.64815E-03  1.25502E-03  8.36024E-05  1.07287E-03 -6.18364E-04 -1.07644E-03
+ -1.11711E-02 -1.01133E-02  5.88721E-03 -8.91946E-05  1.41311E-02  3.11364E-02  1.70785E-02
+  8.77995E-02  5.38842E-02 -3.98366E-02 -2.37590E-03 -5.86135E-03  7.28874E-02  2.04306E-02
+  5.42096E-02  3.75432E-02 -2.55249E-02 -1.17592E-03 -1.29479E-02  4.20076E-02  3.35946E-02
+>SPECTRA  FREQ=1.373291E-03 ROTSPEC=0 AVGT=36 // 49
+  1.11494E-01 -1.38864E-01  5.10817E-02  1.95295E-03 -2.25035E-03  4.30992E-02 -1.52908E-01
+  2.84135E-02  1.89189E-01  7.67659E-03  3.61849E-03 -2.49201E-02  1.23224E-01  7.71557E-03
+ -6.33207E-03 -6.84397E-02  2.56250E-02 -1.26015E-03  9.45872E-03 -4.29733E-02 -1.05448E-02
+  2.34220E-03 -1.82275E-03  8.14821E-04  8.80394E-05  3.21314E-04 -6.15118E-04 -4.02783E-03
+ -1.93377E-02 -3.46089E-03  4.68984E-04 -4.53470E-04  3.60533E-03 -5.70101E-03  2.74278E-02
+  9.02834E-02 -3.33746E-02  1.55235E-02  2.64307E-03 -1.61214E-02  9.05856E-02 -1.38137E-01
+  3.71832E-02  2.07202E-01 -7.46566E-02 -1.87852E-03 -4.45504E-03 -3.11957E-02  2.28016E-01
+>SPECTRA  FREQ=1.144409E-03 ROTSPEC=0 AVGT=16 // 49
+  9.27789E-02 -1.55620E-02  4.59810E-03  1.89688E-03 -2.22701E-02  4.11842E-03 -1.87312E-02
+  1.08149E-01  1.29509E-01 -1.91472E-03  1.87925E-03 -3.03802E-02  1.49685E-02 -4.23399E-03
+ -4.64139E-02 -5.56402E-02  2.44635E-02 -8.76541E-04  1.24004E-02 -5.03120E-03  4.05196E-03
+ -2.18469E-03 -2.85806E-03  1.20193E-03  9.17129E-05  1.06251E-03 -1.31287E-03 -1.71353E-03
+ -2.64402E-02 -2.70229E-02  1.20749E-02  1.68359E-04  1.28854E-02  1.32128E-02  3.05315E-02
+  5.98846E-02  6.89343E-02 -2.95131E-02 -1.32225E-03 -1.80659E-02  3.88927E-02 -1.67780E-02
+  1.04974E-01  1.25707E-01 -5.36320E-02 -2.85351E-03 -2.54048E-02  6.68803E-02  1.22603E-01
+>SPECTRA  FREQ=9.918213E-04 ROTSPEC=0 AVGT=0 // 49
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+>SPECTRA  FREQ=8.392334E-04 ROTSPEC=0 AVGT=16 // 49
+  3.89060E-02 -5.66227E-02 -7.21035E-02  1.89610E-03  2.90176E-03  2.33212E-02 -7.09060E-02
+  5.98144E-02  1.96197E-01 -2.45995E-01  6.75648E-03 -2.82910E-02  6.78764E-02 -9.82062E-05
+ -7.04860E-02 -2.04867E-02  3.23214E-01  7.20107E-04 -4.85100E-02 -1.58482E-02  2.90748E-01
+  2.19493E-03  1.01257E-03 -8.76610E-03  2.42651E-04  1.27012E-03  5.48844E-04 -8.09169E-03
+ -2.11726E-02 -4.04811E-02  3.87678E-02 -1.17801E-03  1.25401E-02 -1.51812E-02  3.44186E-02
+  2.07485E-02 -9.16526E-03 -7.79671E-02  2.23149E-03 -8.50445E-03  2.75213E-02 -8.40620E-02
+  7.32815E-02  2.34796E-01 -1.95264E-02  1.09056E-03 -4.85847E-02 -9.41203E-03  2.83918E-01
+>SPECTRA  FREQ=6.866455E-04 ROTSPEC=0 AVGT=16 // 49
+  2.91082E-02 -4.25645E-02  2.20022E-02  2.06457E-03  8.36462E-03  1.88336E-02 -5.79992E-02
+ -2.96566E-02  1.10389E-01 -2.97684E-02 -5.57721E-03 -7.95682E-03  1.70771E-02  4.32138E-02
+  4.37213E-04 -4.08739E-02  2.39984E-02  1.84137E-03 -1.62809E-03 -2.04106E-02  1.51725E-02
+ -2.39542E-03 -5.49056E-04  1.49811E-03  3.43658E-04 -7.74137E-04 -3.40637E-03  5.75486E-03
+  1.25144E-03 -1.66256E-02  8.34075E-03  4.83137E-04  3.08918E-03 -6.65352E-03  1.93183E-03
+  2.62203E-02 -5.83608E-02  1.74451E-02 -8.32039E-04  7.40000E-03  3.69853E-02 -4.22352E-02
+ -1.41211E-02  1.16177E-01 -5.39943E-02 -2.91611E-03 -2.05636E-02 -5.46871E-02  1.39762E-01
+>SPECTRA  FREQ=5.722046E-04 ROTSPEC=0 AVGT=0 // 49
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+>SPECTRA  FREQ=4.959106E-04 ROTSPEC=0 AVGT=0 // 49
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+>SPECTRA  FREQ=4.196167E-04 ROTSPEC=0 AVGT=5 // 49
+  1.50652E-01 -1.17550E-01  1.48934E-01 -5.49506E-03 -3.07243E-03  4.28749E-02 -1.17093E-01
+  1.06623E-02  2.63255E-01 -5.07310E-01  2.11569E-02 -1.18992E-02  1.42631E-01  9.92196E-02
+  5.41438E-02 -1.51849E-01  2.01275E+00  4.88094E-02 -8.22959E-03 -3.87566E-01 -1.11059E-01
+ -9.70306E-03  1.82127E-02 -1.07791E-01  7.03983E-03  1.30864E-03  1.66359E-02  1.44244E-02
+ -2.21219E-02 -7.61595E-03 -2.73341E-02  1.76536E-03  3.91121E-03 -1.18199E-03  1.55632E-02
+  1.63452E-01 -9.46371E-02  7.83961E-02 -1.62599E-02 -2.08832E-02  2.21385E-01 -1.69951E-01
+  6.37519E-02  9.81329E-02 -2.82809E-01  1.02062E-02 -5.19783E-03  3.89619E-02  1.37554E-01
+>SPECTRA  FREQ=3.433228E-04 ROTSPEC=0 AVGT=0 // 49
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+>END
